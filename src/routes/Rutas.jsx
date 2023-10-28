@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Route, Routes} from 'react-router-dom'
-import Nav from '../nav/Nav'
-import Home from '../Home/Home'
+import Nav from '../components/nav/Nav'
+import Home from '../components/Home/Home'
 
 
 
