@@ -5,91 +5,132 @@
 }
 
 
-  .HomeSect1{
-    width: 100%;
-    height: 100%;
-    display: flex;    
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #EFEFEF;
-    padding: 80px 0;
-  }
+.HomeSect1{
+  width: 100%;
+  height: 100%;
+  display: flex;    
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #EFEFEF;
+  padding: 80px 0;
+}
 
 
 
   
-  .HomeSect1__contleft{
-    margin-left: -450px;
-    transition: margin-left 1s ease-in-out;
-    animation: aparecer 1s forwards;
+.HomeSect1__contleft{
+  margin-left: -450px;
+  transition: margin-left 1s ease-in-out;
+  animation: aparecer 1s forwards;
+}
+
+@keyframes aparecer {
+  to {
+    margin-left: 0; 
+  }
+}
+
+.HomeSect1__FotoSanti{
+  width: auto;
+  height: 65vh;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 5px rgb(108, 108, 108);
+}
+
+
+
+.HomeSect1__contRight{
+  height: 65vh;
+  width: 40%;
+  /* background-color: rgba(217, 212, 185, 0);
+  box-shadow: 1px 1px 5px 5px rgb(108, 108, 108);
+  border-radius: 5px; */
+
+  margin-right: -450px;
+  transition: margin-left 1s ease-in-out;
+  animation: aparecer2 1s forwards;
+}
+
+@keyframes aparecer2 {
+  to {
+    margin-right: 0; 
+  }
+}
+
+
+.HomeSect1__Title{
+  text-align: center;
+}
+
+.HomeSect1__Text{
+  text-align: justify;
+}
+
+
+
+.HomeSect2{
+  position: relative;
+}
+
+.HomeSect2__Header{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: -27px;
+}
+
+.HomeSect2__title{
+  background-color: #59AB6E;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+
+
+.HomeSect2__Main{
+  padding-top: 70px;    
+}
+
+
+.HomeSect2__Opciones{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 13px 1px rgb(177, 174, 174);
+  cursor: pointer;
+}
+
+.HomeSect2__btnleft{
+  width: 50%;
+  text-align: center;
+  padding: 3px 0;
+}
+
+.HomeSect2__btnRight{
+  width: 50%;
+  text-align: center;
+  background-color: #59AB6E;
+  border-radius: 0 5px 5px 0;
+  padding: 3px 0;
+  color: #ffff;
+}
+
+.HomeSect2__ContSkills{
+  height: 300px;
+  border: solid 1px black;
+  width: 80vw;
+  margin: 0 auto;
   }
 
-  @keyframes aparecer {
-    to {
-      margin-left: 0; 
-    }
-  }
-  
-  .HomeSect1__FotoSanti{
-    width: auto;
-    height: 65vh;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px 5px rgb(108, 108, 108);
-  }
+.HomeSect2__itemTecn{
+  border-radius: 5px;
+  background-color: aquamarine;
+}
 
 
-
-  .HomeSect1__contRight{
-    height: 65vh;
-    width: 40%;
-    /* background-color: rgba(217, 212, 185, 0);
-    box-shadow: 1px 1px 5px 5px rgb(108, 108, 108);
-    border-radius: 5px; */
-
-    margin-right: -450px;
-    transition: margin-left 1s ease-in-out;
-    animation: aparecer2 1s forwards;
-  }
-
-  @keyframes aparecer2 {
-    to {
-      margin-right: 0; 
-    }
-  }
-
-
-  .HomeSect1__Title{
-    text-align: center;
-  }
-
-  .HomeSect1__Text{
-    text-align: justify;
-  }
-
-
-
-  .HomeSect2{
-    position: relative;
-  }
-
-  .HomeSect2__Header{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    top: -27px;
-  }
-
-  .HomeSect2__title{
-    background-color: #59AB6E;
-    color: #ffff;
-    border-radius: 5px;
-    padding: 5px 15px;
-  }
-
-
-  .HomeSect2__Opciones{
-    
-  }
 
 

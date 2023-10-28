@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 // import { collection, getDocs } from 'firebase/firestore';
 // import { db } from '../../Firebase/Firebase';
-import HomeMenu from '../../assets/img/HomeImg/Homefondo.jpg'
+import Tecnologias from './componentes/Tecnologias'
 import FotoSantiago from '../../assets/img/HomeImg/fotoSanti2.jpeg'
 import'./Home.css'
+
 
 
 
@@ -41,8 +42,11 @@ function Home() {
 
           <div className='HomeSect2__Main'>
               <div className='HomeSect2__Opciones'>
-                
+                <div className='HomeSect2__btnleft '>Tecnologias</div>
+                <div className='HomeSect2__btnRight '>Habilidades</div>
               </div>
+
+              <Tecnologias/>
           </div>
         </section>
       
