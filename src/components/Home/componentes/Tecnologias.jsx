@@ -9,7 +9,12 @@ function Tecnologias() {
 
   return (
     <section className='HomeSect2__ContSkills'>
-      Tecnologias
+      <div className='HomeSect2__itemTecn'>
+        <div>Lo mas usado</div>
+        <hr />
+        <p>otro elemento</p>
+        <br />
+      </div>
     </section>
   )
 }

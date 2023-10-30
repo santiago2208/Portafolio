@@ -126,14 +126,18 @@
 
 .HomeSect2__ContSkills{
   height: 300px;
-  border: solid 1px black;
+  box-shadow: 0px 0px 10px 0px rgb(119, 118, 118);
+  border-radius: 5px;
   width: 80vw;
-  margin: 0 auto;
+  margin: 40px auto;
+  padding: 15px 0;
   }
 
 .HomeSect2__itemTecn{
+  width: 97%;
   border-radius: 5px;
-  background-color: aquamarine;
+  background-color: #27ae60;
+  margin: 10px auto;
 }
 
 
