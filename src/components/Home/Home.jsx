@@ -3,13 +3,28 @@ import { Link } from 'react-router-dom'
 // import { collection, getDocs } from 'firebase/firestore';
 // import { db } from '../../Firebase/Firebase';
 import Tecnologias from './componentes/Tecnologias'
+import Habilidades from './componentes/Habilidades'
 import FotoSantiago from '../../assets/img/HomeImg/fotoSanti2.jpeg'
 import'./Home.css'
 
 
 
-
 function Home() {
+
+  const [ShowTecnologias, setShowTecnologias] = useState(true);
+  const [ShowHabilidades, setShowHabilidades] = useState(false);
+
+
+
+  const ToggleTecnologias = () => {
+    setShowHabilidades(false); 
+    setShowTecnologias(true); 
+  };
+
+  const ToggleHabilidades = () => {
+    setShowTecnologias(false); 
+    setShowHabilidades(true); 
+  };
 
   return (
     <main>
@@ -41,12 +56,30 @@ function Home() {
           </div>  
 
           <div className='HomeSect2__Main'>
-              <div className='HomeSect2__Opciones'>
-                <div className='HomeSect2__btnleft '>Tecnologias</div>
-                <div className='HomeSect2__btnRight '>Habilidades</div>
+            <div className='HomeSect2__Opciones'>
+              <div className={`HomeSect2__btnleft ${ShowTecnologias ? 'btnSelected1':''}`} 
+              onClick={ToggleTecnologias}
+              >
+                Uso de tecnologias
+              </div>
+              <div className={`HomeSect2__btnRight ${ShowHabilidades ? 'btnSelected1':''}`}
+              onClick={ToggleHabilidades}>
+                Habilidades blandas
               </div>
 
-              <Tecnologias/>
+              <div ></div>
+            </div>
+
+              {ShowTecnologias && (
+                <Tecnologias/>
+              )}
+
+              {ShowHabilidades && (
+                <Habilidades/>
+              )}
+                   
+
+
           </div>
         </section>
       

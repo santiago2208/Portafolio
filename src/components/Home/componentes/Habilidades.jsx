@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 
 
 
-function Tecnologias() {
+function Habilidades() {
 
   return (
     <section className='HomeSect2__ContSkills'>
-      Tecnologias
+      habilidades
     </section>
   )
 }
 
-export default Tecnologias
+export default Habilidades
