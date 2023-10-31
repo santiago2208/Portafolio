@@ -9,6 +9,7 @@ import'./Home.css'
 
 
 
+
 function Home() {
 
   const [ShowTecnologias, setShowTecnologias] = useState(true);

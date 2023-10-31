@@ -13,6 +13,7 @@
   justify-content: space-evenly;
   background-color: #EFEFEF;
   padding: 80px 0;
+  flex-wrap: wrap;
 }
 
 
@@ -22,6 +23,7 @@
   margin-left: -450px;
   transition: margin-left 1s ease-in-out;
   animation: aparecer 1s forwards;
+  margin-right: 20px;
 }
 
 @keyframes aparecer {
@@ -40,7 +42,7 @@
 
 
 .HomeSect1__contRight{
-  height: 65vh;
+  min-height: 65vh;
   width: 40%;
   /* background-color: rgba(217, 212, 185, 0);
   box-shadow: 1px 1px 5px 5px rgb(108, 108, 108);
@@ -125,7 +127,6 @@
 }
 
 .HomeSect2__ContSkills{
-  height: 300px;
   box-shadow: 0px 0px 10px 0px rgb(119, 118, 118);
   border-radius: 5px;
   width: 80vw;
@@ -135,11 +136,65 @@
 
 .HomeSect2__itemTecn{
   width: 97%;
-  border-radius: 5px;
-  background-color: #27ae60;
+  border-radius: 10px;
   margin: 10px auto;
+}
+
+.Color_green{
+  background-color: #27ae60;
+}
+
+.Color_lightYellow{
+  background-color: #C8E645;
+}
+
+.Color_Orange{
+  background-color: rgba(241, 151, 15, 0.73);
 }
 
 
 
 
+.HomeSect2__TitElemnt{
+  padding: 5px 7px;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffff;
+  display: inline-block;
+  margin-bottom: 0;
+  border-top: solid black 1px ;
+  border-left: solid black 1px ;
+  border-right: solid black 1px ;
+  cursor: pointer;
+}
+
+.HomeSect2__TitElemnt2{
+  padding-top: 7px;
+  padding-left: 15px;
+}
+
+.divisionLinea{
+  margin-top: 0px;
+  border: solid 1.5px rgba(0, 0, 0, 0.601);
+  margin-bottom: 5px;
+}
+
+.HomeSect2__ContLogos{
+  display: flex;
+  gap: 13px;
+  padding: 10px 35px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.HomeSect2__Logos{
+  height: 50px;
+  width: 100px;
+  background-color: #ffff;
+  border-radius: 5px;
+}
+
+.HomeSect2_LogosItem{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
