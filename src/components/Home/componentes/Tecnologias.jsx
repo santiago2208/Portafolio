@@ -24,6 +24,9 @@ import Unity from '../../../assets/img/HomeImg/LogosTecnologia/Unity.png'
 import Unreal from '../../../assets/img/HomeImg/LogosTecnologia/Unreal.png'
 import Vite from '../../../assets/img/HomeImg/LogosTecnologia/Vite.jpg'
 
+import Git from '../../../assets/img/HomeImg/LogosTecnologia/Git.png'
+import GitHub from '../../../assets/img/HomeImg/LogosTecnologia/GitHub.png'
+
 
 
 
@@ -71,11 +74,11 @@ function Tecnologias() {
               <img className='HomeSect2_LogosItem' src={javaScript} alt="" />
             </div>
             <div className="HomeSect2__Logos">
-              <img className='HomeSect2_LogosItem' src={GitYGutHub} alt="" /> {/**Pendiente cambiar */}
+              <img className='HomeSect2_LogosItem' src={Git} alt="" /> {/**Pendiente cambiar */}
             </div>
 
             <div className="HomeSect2__Logos">
-              <img className='HomeSect2_LogosItem' src={GitYGutHub} alt="" /> {/**Pendiente cambiar */}
+              <img className='HomeSect2_LogosItem' src={GitHub} alt="" /> {/**Pendiente cambiar */}
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={NodeJS} alt="" />
@@ -193,7 +196,8 @@ function Tecnologias() {
 
       </div>
 
-      
+      <a href="https://www.flaticon.com/free-icons/adaptable" title="adaptable icons">Adaptable icons created by Afian Rochmah Afif - Flaticon</a>
+
     </section>
   )
 }
