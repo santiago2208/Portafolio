@@ -196,9 +196,11 @@ function Tecnologias() {
 
       </div>
 
+
+
       <a href="https://www.flaticon.com/free-icons/adaptable" title="adaptable icons">Adaptable icons created by Afian Rochmah Afif - Flaticon</a>
 
-    </section>
+    </section> 
   )
 }
 
