@@ -118,11 +118,11 @@ function Tecnologias() {
               <img className='HomeSect2_LogosItem' src={javaScript} alt="" />
             </div>
             <div className="HomeSect2__Logos">
-              <img className='HomeSect2_LogosItem' src={GitYGutHub} alt="" /> {/**Pendiente cambiar */}
+              <img className='HomeSect2_LogosItem' src={Git} alt="" /> {/**Pendiente cambiar */}
             </div>
 
             <div className="HomeSect2__Logos">
-              <img className='HomeSect2_LogosItem' src={GitYGutHub} alt="" /> {/**Pendiente cambiar */}
+              <img className='HomeSect2_LogosItem' src={GitHub} alt="" /> {/**Pendiente cambiar */}
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={NodeJS} alt="" />
