@@ -58,32 +58,32 @@ function Habilidades() {
 
           <div className='habBlandas__Item borderRight ColorGray bordeRadioLeft_up'>
             <img className='habBlandas__Icono ' src={adaptacionLapiz} alt="icono de adaptacion" />
-            <p className='habBlandas__Text1'><b>Adaptabilidad Tecnológica:</b> Tengo la capacidad de adaptarme a diferentes tecnologías y herramientas de desarrollo. Incluso cuando se presentan limitaciones, demuestro flexibilidad y una disposición constante para aprender y utilizar nuevas soluciones tecnológicas.</p>
+            <p className='habBlandas__Text1'><b>Adaptacion:</b> Tengo la capacidad de adaptarme a diferentes tecnologías y herramientas de desarrollo. Incluso cuando se presentan limitaciones, demuestro flexibilidad y una disposición constante para aprender y utilizar nuevas soluciones tecnológicas.</p>
           </div>
 
           <div className='habBlandas__Item borderLeft ColorGray bordeRadioRight_up'>
-            <p className='habBlandas__Text1'><b>Aprendizaje Continuo:</b> Me caracterizo por mi actitud de búsqueda constante de conocimientos y habilidades, tanto en términos de desarrollo técnico como de habilidades blandas. Mi interés está en el crecimiento personal y la mejora continua.</p>
+            <p className='habBlandas__Text1'><b>Aprendizaje:</b> Me caracterizo por mi actitud de búsqueda constante de conocimientos y habilidades, tanto en términos de desarrollo técnico como de habilidades blandas. Mi interés está en el crecimiento personal y la mejora continua.</p>
             <img className='habBlandas__Icono' src={libroLapiz} alt="Icono de un libro con serebro" />
           </div>
 
           <div className='habBlandas__Item borderRight'>
             <img className='habBlandas__Icono ' src={creatividadLapiz} alt="icono de creatividad" />
-            <p className='habBlandas__Text1'><b>Creatividad e Innovación:</b> Siempre estoy dispuesto a proponer soluciones creativas e innovadoras a los problemas de desarrollo. Me encanta generar ideas y mejoras, y valoro la retroalimentación y la colaboración para refinar esas ideas.</p>
+            <p className='habBlandas__Text1'><b>Creatividad:</b> Siempre estoy dispuesto a proponer soluciones creativas e innovadoras a los problemas de desarrollo. Me gusta generar ideas y mejoras, y valoro la retroalimentación y la colaboración para refinar esas ideas.</p>
           </div>
 
           <div className='habBlandas__Item borderLeft'>
-            <p className='habBlandas__Text1'><b>Orientación a Requerimientos:</b> Mi enfoque principal es atender y priorizar las necesidades del cliente o del empleador. Me aseguro de que los proyectos cumplan con las expectativas y los objetivos establecidos.</p>
+            <p className='habBlandas__Text1'><b>Requerimientos:</b> Mi enfoque principal es atender y priorizar las necesidades del cliente o del empleador. Me aseguro de que los proyectos cumplan con las expectativas y los objetivos establecidos.</p>
             <img className='habBlandas__Icono' src={requerimientoLapiz} alt="Icono de Requerimientos" />
           </div>
 
           <div className='habBlandas__Item borderRight ColorGray bordeRadioLeft_down'>
             <img className='habBlandas__Icono ' src={optimizacion_webLapiz} alt="Icono de Optimizacion" />
-            <p className='habBlandas__Text1'><b>Excelencia y Optimización:</b>  Mi compromiso es alcanzar la excelencia en la calidad del trabajo. Siempre estoy pensando en cómo optimizar el código y las operaciones relacionadas con las bases de datos. Me enfoco en prácticas de desarrollo sólidas.</p>
+            <p className='habBlandas__Text1'><b>Optimización:</b>  Mi compromiso es alcanzar la excelencia en la calidad del trabajo. Siempre estoy pensando en cómo optimizar el código y las operaciones relacionadas con las bases de datos. Me enfoco en prácticas de desarrollo sólidas.</p>
           </div>
 
           <div className='habBlandas__Item borderLeft ColorGray bordeRadioRight_down'>
-            <p className='habBlandas__Text1'><b>Afrontamiento de Retos:</b> No temo a los desafíos. Estoy dispuesto a abordar tareas complejas y a superar dificultades en el desarrollo de software con determinación y perseverancia.</p>
-            <img className='habBlandas__Icono' src={desafiosLapiz} alt="Icono de desafios" />
+            <p className='habBlandas__Text1'><b>Trabajo en Equipo:</b> Me destaco por trabajar eficazmente en equipos, fomentando la colaboración y el apoyo mutuo. Siempre estoy dispuesto a escuchar y valorar las ideas de los demás, y aportar las mías. Además, tengo la flexibilidad y la disposición para asumir el liderazgo cuando la situación lo requiere</p>
+            <img className='habBlandas__Icono' src={gestion_de_equiposLapiz} alt="Icono de desafios" />
           </div>
 
         </div>
@@ -101,42 +101,36 @@ function Habilidades() {
 
           <div className='habBlanTargeta'>
             <p className='habBlanTargeta__title'>
-              Adaptacion
+              Creatividad
             </p>
             <img className='habBlanTargeta__icono' src={creatividadColor} alt="" />
           </div>
 
           <div className='habBlanTargeta'>
             <p className='habBlanTargeta__title'>
-              Adaptacion
+              Aprendizaje
             </p>
             <img className='habBlanTargeta__icono' src={libroColor} alt="" />
           </div>
 
-          <div className='habBlanTargeta'>
-            <p className='habBlanTargeta__title'>
-              Adaptacion
-            </p>
-            <img className='habBlanTargeta__icono' src={desafiosColor} alt="" />
-          </div>
 
           <div className='habBlanTargeta'>
             <p className='habBlanTargeta__title'>
-              Adaptacion
+             Optimización
             </p>
             <img className='habBlanTargeta__icono' src={optimizacion} alt="" />
           </div>
 
           <div className='habBlanTargeta'>
             <p className='habBlanTargeta__title'>
-              Adaptacion
+              Trabajo en Equipo
             </p>
             <img className='habBlanTargeta__icono' src={gestion_de_equiposColor} alt="" />
           </div>
 
           <div className='habBlanTargeta'>
             <p className='habBlanTargeta__title'>
-              Adaptacion
+              Requerimientos
             </p>
             <img className='habBlanTargeta__icono' src={requerimientoColor} alt="" />
           </div>
