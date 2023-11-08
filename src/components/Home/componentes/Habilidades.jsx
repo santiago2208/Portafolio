@@ -137,11 +137,28 @@ function Habilidades() {
           
 
         </div>
+
       </section>
     )}
 
     
-
+      <section className='Modal'>
+        <div className='Modal__body'>
+          <div className='Modal__header'>
+            <h4 className='Modal__title'>Adaptacion</h4>
+          </div>
+          <div className='Modal__Main'>
+            <p>
+            Tengo la capacidad de adaptarme a diferentes tecnologías y herramientas de desarrollo. Incluso cuando se presentan limitaciones, demuestro flexibilidad y una disposición constante para aprender y utilizar nuevas soluciones tecnológicas.
+            </p>
+          </div>
+          <div className='Modal__Fotter'>
+            <div className='btnVerde'>
+              Cerrar
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   )
 }

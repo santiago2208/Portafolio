@@ -348,6 +348,12 @@
   margin: 0 30px;
   margin-top: 30px;
   min-width: 150px;
+  cursor: pointer;
+}
+
+.habBlanTargeta:hover{
+  position:relative;
+  bottom: 5px;
 }
 
 .habBlanTargeta__title{
@@ -361,6 +367,62 @@
   margin: 0 auto;
   display: block;
 }
+
+.Modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0000005b;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal__body{
+  min-width: 50vw;
+  min-height: 30vh;
+  max-width: 700px;
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.Modal__header{
+
+}
+
+.Modal__title{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.Modal__Main{
+
+}
+
+.Modal__Fotter{
+  display: flex;
+  justify-content: center;
+}
+
+.btnVerde{
+  text-align: center;
+  background-color: #59AB6E;
+  border-radius: 10px;
+  padding: 5px 10px;
+  min-width: 100px;
+  cursor: pointer;
+  border: solid 1px #00000000;
+}
+
+.btnVerde:hover{
+  border: solid 1px black;
+}
+
 
 
 
