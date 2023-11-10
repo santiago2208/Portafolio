@@ -383,7 +383,6 @@
 
 .Modal__body{
   min-width: 50vw;
-  min-height: 30vh;
   max-width: 700px;
   background-color: #ffff;
   border-radius: 10px;

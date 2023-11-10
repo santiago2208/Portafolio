@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
+import {databaseTemp} from '../../../json/JsonTemporal'
+
 import adaptacionColor from '../../../assets/img/HomeImg/habilidadesIconos/1adaptacionColor.png'
 import adaptacionLapiz from '../../../assets/img/HomeImg/habilidadesIconos/2adaptacionLapiz.png'
 import creatividadColor from '../../../assets/img/HomeImg/habilidadesIconos/3creatividadColor.png'
@@ -23,11 +25,24 @@ import cambiar from '../../../assets/img/HomeImg/habilidadesIconos/cambiar.png'
 
 
 
+
+
 function Habilidades() {
 
   const [HabBlan_Vista, setHabBlan_descripcion] = useState(true);
 
   const [HabBlan_Vista__hover, setHabBlan_Vista__hover] = useState(false);
+  
+
+  const [detalleModal, setdetalleModal] = useState("");
+
+
+  // Función para cambiar la habilidad mostrada
+  const cambiarHabilidad = (nuevaHabilidad) => {
+    setHabilidadAMostrar(nuevaHabilidad);
+  };
+
+  const habilidadEntry = databaseTemp.skills.find(skill => skill.habilidades === habilidadAMostrar);
 
 
 
@@ -157,6 +172,7 @@ function Habilidades() {
               Cerrar
             </div>
           </div>
+          
         </div>
       </section>
     </section>
