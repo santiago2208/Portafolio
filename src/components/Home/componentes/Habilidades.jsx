@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-import {databaseTemp} from '../../../json/JsonTemporal'
+import skills from '../../../json/JsonTemporal'
 
 import adaptacionColor from '../../../assets/img/HomeImg/habilidadesIconos/1adaptacionColor.png'
 import adaptacionLapiz from '../../../assets/img/HomeImg/habilidadesIconos/2adaptacionLapiz.png'
@@ -23,10 +23,6 @@ import cambiar from '../../../assets/img/HomeImg/habilidadesIconos/cambiar.png'
 
 
 
-
-
-
-
 function Habilidades() {
 
   const [HabBlan_Vista, setHabBlan_descripcion] = useState(true);
@@ -34,15 +30,29 @@ function Habilidades() {
   const [HabBlan_Vista__hover, setHabBlan_Vista__hover] = useState(false);
   
 
-  const [detalleModal, setdetalleModal] = useState("");
+  const [ModalSkills, setModalSkills] = useState(false);
+
+  const [TituloModal, setTituloModal] = useState("");
+  const [DetalleModal, setDetalleModal] = useState("");
 
 
-  // Función para cambiar la habilidad mostrada
-  const cambiarHabilidad = (nuevaHabilidad) => {
-    setHabilidadAMostrar(nuevaHabilidad);
+  const CamModHabilidad = (habilidad) => {
+    const HabSelect = skills.find(skill => skill.habilidades === habilidad);
+    
+    if (!HabSelect) {
+      return <p>No se encontró el producto.</p>;
+    }
+
+    setModalSkills(true)
+    setTituloModal(HabSelect.habilidades)
+    setDetalleModal(HabSelect.descripcion)
   };
 
-  const habilidadEntry = databaseTemp.skills.find(skill => skill.habilidades === habilidadAMostrar);
+
+  
+
+
+  
 
 
 
@@ -107,21 +117,21 @@ function Habilidades() {
       <section className='HomeSect2__ContSkills MaxWith1000px'>
         <div className='habBlandas2'>
 
-          <div className='habBlanTargeta'>
+          <div className='habBlanTargeta'  onClick={() => {CamModHabilidad("Adaptacion"); }}>
             <p className='habBlanTargeta__title'>
               Adaptacion
             </p>
             <img className='habBlanTargeta__icono' src={adaptacionColor} alt="" />
           </div>
 
-          <div className='habBlanTargeta'>
+          <div className='habBlanTargeta' onClick={() => {CamModHabilidad("Creatividad"); }}>
             <p className='habBlanTargeta__title'>
               Creatividad
             </p>
             <img className='habBlanTargeta__icono' src={creatividadColor} alt="" />
           </div>
 
-          <div className='habBlanTargeta'>
+          <div className='habBlanTargeta' onClick={() => {CamModHabilidad("Aprendizaje"); }}>
             <p className='habBlanTargeta__title'>
               Aprendizaje
             </p>
@@ -129,21 +139,21 @@ function Habilidades() {
           </div>
 
 
-          <div className='habBlanTargeta'>
+          <div className='habBlanTargeta' onClick={() => {CamModHabilidad("Optimización"); }}>
             <p className='habBlanTargeta__title'>
              Optimización
             </p>
             <img className='habBlanTargeta__icono' src={optimizacion} alt="" />
           </div>
 
-          <div className='habBlanTargeta'>
+          <div className='habBlanTargeta' onClick={() => {CamModHabilidad("Trabajo en Equipo"); }}>
             <p className='habBlanTargeta__title'>
               Trabajo en Equipo
             </p>
             <img className='habBlanTargeta__icono' src={gestion_de_equiposColor} alt="" />
           </div>
 
-          <div className='habBlanTargeta'>
+          <div className='habBlanTargeta' onClick={() => {CamModHabilidad("Requerimientos"); }}>
             <p className='habBlanTargeta__title'>
               Requerimientos
             </p>
@@ -156,25 +166,31 @@ function Habilidades() {
       </section>
     )}
 
-    
-      <section className='Modal'>
-        <div className='Modal__body'>
-          <div className='Modal__header'>
-            <h4 className='Modal__title'>Adaptacion</h4>
-          </div>
-          <div className='Modal__Main'>
-            <p>
-            Tengo la capacidad de adaptarme a diferentes tecnologías y herramientas de desarrollo. Incluso cuando se presentan limitaciones, demuestro flexibilidad y una disposición constante para aprender y utilizar nuevas soluciones tecnológicas.
-            </p>
-          </div>
-          <div className='Modal__Fotter'>
-            <div className='btnVerde'>
-              Cerrar
+
+      {ModalSkills &&(<>
+        <section className='Modal' >
+          <div className='Modal__body'>
+            <div className='Modal__header'>
+              <h4 className='Modal__title'>{TituloModal}</h4>
+            </div>
+            <div className='Modal__Main'>
+              <p>
+                {DetalleModal}
+              </p>
+            </div>
+            <div className='Modal__Fotter'>
+              <div className='btnVerde' onClick={() => {   setModalSkills(false); }}>
+                Cerrar
+              </div>
+
             </div>
           </div>
-          
-        </div>
-      </section>
+        </section>
+      </>)}
+    
+      
+
+
     </section>
   )
 }

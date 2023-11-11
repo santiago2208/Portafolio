@@ -78,11 +78,19 @@ function Home() {
               {ShowHabilidades && (
                 <Habilidades/>
               )}
-                   
-
-
           </div>
         </section>
+
+        <section className='HomeSect3'>
+          <div className='HomeSect2__Header'>
+            <h1 className='HomeSect2__title'>↓ Experiencia laboral ↓</h1>
+          </div>  
+        </section>
+
+        <div className='HomeSect3__Targeta'>
+          <div></div>
+          <div></div>
+        </div>
       
       </section>
     </main>

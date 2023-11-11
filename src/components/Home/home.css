@@ -72,6 +72,7 @@
 
 .HomeSect2{
   position: relative;
+  padding-bottom: 60px;
 }
 
 .HomeSect2__Header{
@@ -354,6 +355,7 @@
 .habBlanTargeta:hover{
   position:relative;
   bottom: 5px;
+  box-shadow: 0 0 14px 1px #27ae60;
 }
 
 .habBlanTargeta__title{
@@ -422,6 +424,11 @@
   border: solid 1px black;
 }
 
+.HomeSect3{
+  padding-top: 60px;
+  background-color: #EFEFEF;
+  position: relative;
+}
 
 
 

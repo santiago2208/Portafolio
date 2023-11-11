@@ -1,5 +1,4 @@
-export const databaseTemp = {
-    skills: [
+const skills = [
         {
         habilidades: "Adaptacion",
         descripcion: "Tengo la capacidad de adaptarme a diferentes tecnologías y herramientas de desarrollo. Incluso cuando se presentan limitaciones, demuestro flexibilidad y una disposición constante para aprender y utilizar nuevas soluciones tecnológicas.",
@@ -24,9 +23,10 @@ export const databaseTemp = {
         },
 
         {
-        habilidades: "Trabajo en Equipo:",
+        habilidades: "Trabajo en Equipo",
         descripcion: "Me destaco por trabajar eficazmente en equipos, fomentando la colaboración y el apoyo mutuo. Siempre estoy dispuesto a escuchar y valorar las ideas de los demás, y aportar las mías. Además, tengo la flexibilidad y la disposición para asumir el liderazgo cuando la situación lo requiere",
         },
         
-    ],
-};
+    ]
+    
+export default skills
