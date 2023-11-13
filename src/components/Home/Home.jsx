@@ -7,6 +7,11 @@ import Habilidades from './componentes/Habilidades'
 import FotoSantiago from '../../assets/img/HomeImg/fotoSanti2.jpeg'
 import'./Home.css'
 
+import IconEmpresa from '../../assets/img/HomeImg/Exp_Laboral/Empresa.png'
+import iconCargo from '../../assets/img/HomeImg/Exp_Laboral/Cargo.png'
+import iconFecha from '../../assets/img/HomeImg/Exp_Laboral/Fecha.png'
+import iconTecnologias from '../../assets/img/HomeImg/Exp_Laboral/Tecnologias.png'
+
 
 
 
@@ -85,12 +90,73 @@ function Home() {
           <div className='HomeSect2__Header'>
             <h1 className='HomeSect2__title'>↓ Experiencia laboral ↓</h1>
           </div>  
+
+          <div className='TargetaSec3'>
+
+            <div className='TargetaSec3__elemento'>
+                <div className='TargetaSec3__ContDetalle' title='Empresa'>
+                  <img className='TargetaSec3__Icon' src={IconEmpresa} alt="Icono de Empresa" />
+                  <h3  className='TargetaSec3__TitleLeft'>Empresas públicas de medellín</h3>
+                </div>
+
+                <div className='TargetaSec3__ContDetalle' title='Fecha de ingreso y salida'>
+                  <img className='TargetaSec3__Icon' src={iconFecha} alt="Icono de Empresa" />
+                  <h3 className='TargetaSec3__TitleLeft'>Enero/2023 – Julio/2023</h3>
+                </div>
+
+                <div className='TargetaSec3__ContDetalle' title='Cargo'>
+                  <img className='TargetaSec3__Icon' src={iconCargo} alt="Icono de Empresa" />
+                  <h3 className='TargetaSec3__TitleLeft'>Asistente en desarrollo de software</h3>
+                </div>
+
+                <div className='TargetaSec3__ContDetalle marginButton0' title='Tecnologias usadas'>
+                  <img className='TargetaSec3__Icon' src={iconTecnologias} alt="Icono de Empresa" />
+                  <h3 className='TargetaSec3__TitleLeft'>Tecnologias y herramientas usadas</h3>
+                </div>
+                <p className='TargetaSec3__DesTec'>Power Apps, Power Automate y SharePoint</p>
+            </div>
+
+            <div className='TargetaSec3__elemento'>
+                <h3 className='TargetaSec3__TitleRight'>Tareas realizadas</h3>
+                <p className='TargetaSec3__textRight'>Durante mis prácticas en EPM, tuve la oportunidad de desarrollar una aplicación que ofrece una perspectiva detallada de las pruebas de funcionalidad llevadas a cabo en cada activo, lo que permitió la automatización de diversos procesos. Además, incorporé una funcionalidad que permite asignar tareas a los ayudantes, facilitando que estos consulten, directamente desde la aplicación, qué equipos requieren ser sometidos a pruebas.</p>
+            </div>
+          </div>
+
+          {/* segunda targeta seccion 3 */}
+          <div className='TargetaSec3'>
+
+<div className='TargetaSec3__elemento'>
+    <div className='TargetaSec3__ContDetalle' title='Empresa'>
+      <img className='TargetaSec3__Icon' src={IconEmpresa} alt="Icono de Empresa" />
+      <h3 className='TargetaSec3__TitleLeft'>Independiente</h3>
+    </div>
+
+    <div className='TargetaSec3__ContDetalle' title='Fecha de ingreso y salida'>
+      <img className='TargetaSec3__Icon' src={iconFecha} alt="Icono de Empresa" />
+      <h3 className='TargetaSec3__TitleLeft'>Agosto/2023 – Septiembre/2023</h3>
+    </div>
+
+    <div className='TargetaSec3__ContDetalle' title='Cargo'>
+      <img className='TargetaSec3__Icon' src={iconCargo} alt="Icono de Empresa" />
+      <h3 className='TargetaSec3__TitleLeft'>Desarrollador web</h3>
+    </div>
+
+    <div className='TargetaSec3__ContDetalle marginButton0' title='Tecnologias usadas'>
+      <img className='TargetaSec3__Icon' src={iconTecnologias} alt="Icono de Empresa" />
+      <h3 className='TargetaSec3__TitleLeft'>Tecnologias y herramientas usadas</h3>
+    </div>
+    <p className='TargetaSec3__DesTec'>HTML, CSS, React, Vite, Node.js y Firebase.</p>
+</div>
+
+<div className='TargetaSec3__elemento'>
+    <h3 className='TargetaSec3__TitleRight'>Tareas realizadas</h3>
+    <p className='TargetaSec3__textRight'>Durante mi experiencia como freelancer, colaboré en el desarrollo de una aplicación web. En este proyecto, desempeñé roles tanto en el front-end como en el back-end. Una de mis principales responsabilidades fue la implementación de la API de Firebase. </p>
+</div>
+</div>
+
         </section>
 
-        <div className='HomeSect3__Targeta'>
-          <div></div>
-          <div></div>
-        </div>
+        
       
       </section>
     </main>
