@@ -125,34 +125,172 @@ function Home() {
           {/* segunda targeta seccion 3 */}
           <div className='TargetaSec3'>
 
-<div className='TargetaSec3__elemento'>
-    <div className='TargetaSec3__ContDetalle' title='Empresa'>
-      <img className='TargetaSec3__Icon' src={IconEmpresa} alt="Icono de Empresa" />
-      <h3 className='TargetaSec3__TitleLeft'>Independiente</h3>
-    </div>
+            <div className='TargetaSec3__elemento'>
+                <div className='TargetaSec3__ContDetalle' title='Empresa'>
+                  <img className='TargetaSec3__Icon' src={IconEmpresa} alt="Icono de Empresa" />
+                  <h3 className='TargetaSec3__TitleLeft'>Independiente</h3>
+                </div>
 
-    <div className='TargetaSec3__ContDetalle' title='Fecha de ingreso y salida'>
-      <img className='TargetaSec3__Icon' src={iconFecha} alt="Icono de Empresa" />
-      <h3 className='TargetaSec3__TitleLeft'>Agosto/2023 – Septiembre/2023</h3>
-    </div>
+                <div className='TargetaSec3__ContDetalle' title='Fecha de ingreso y salida'>
+                  <img className='TargetaSec3__Icon' src={iconFecha} alt="Icono de Empresa" />
+                  <h3 className='TargetaSec3__TitleLeft'>Agosto/2023 – Septiembre/2023</h3>
+                </div>
 
-    <div className='TargetaSec3__ContDetalle' title='Cargo'>
-      <img className='TargetaSec3__Icon' src={iconCargo} alt="Icono de Empresa" />
-      <h3 className='TargetaSec3__TitleLeft'>Desarrollador web</h3>
-    </div>
+                <div className='TargetaSec3__ContDetalle' title='Cargo'>
+                  <img className='TargetaSec3__Icon' src={iconCargo} alt="Icono de Empresa" />
+                  <h3 className='TargetaSec3__TitleLeft'>Desarrollador web</h3>
+                </div>
 
-    <div className='TargetaSec3__ContDetalle marginButton0' title='Tecnologias usadas'>
-      <img className='TargetaSec3__Icon' src={iconTecnologias} alt="Icono de Empresa" />
-      <h3 className='TargetaSec3__TitleLeft'>Tecnologias y herramientas usadas</h3>
-    </div>
-    <p className='TargetaSec3__DesTec'>HTML, CSS, React, Vite, Node.js y Firebase.</p>
-</div>
+                <div className='TargetaSec3__ContDetalle marginButton0' title='Tecnologias usadas'>
+                  <img className='TargetaSec3__Icon' src={iconTecnologias} alt="Icono de Empresa" />
+                  <h3 className='TargetaSec3__TitleLeft'>Tecnologias y herramientas usadas</h3>
+                </div>
+                <p className='TargetaSec3__DesTec'>HTML, CSS, React, Vite, Node.js y Firebase.</p>
+            </div>
 
-<div className='TargetaSec3__elemento'>
-    <h3 className='TargetaSec3__TitleRight'>Tareas realizadas</h3>
-    <p className='TargetaSec3__textRight'>Durante mi experiencia como freelancer, colaboré en el desarrollo de una aplicación web. En este proyecto, desempeñé roles tanto en el front-end como en el back-end. Una de mis principales responsabilidades fue la implementación de la API de Firebase. </p>
-</div>
-</div>
+            <div className='TargetaSec3__elemento'>
+              <h3 className='TargetaSec3__TitleRight'>Tareas realizadas</h3>
+              <p className='TargetaSec3__textRight'>Durante mi experiencia como freelancer, colaboré en el desarrollo de una aplicación web. En este proyecto, desempeñé roles tanto en el front-end como en el back-end. Una de mis principales responsabilidades fue la implementación de la API de Firebase. </p>
+            </div>
+          </div>
+
+        </section>
+
+        {/* seccion 4 */}
+        <section className='HomeSect4'> {/* seccion 4 */}
+          <div className='HomeSect2__Header'>
+            <h1 className='HomeSect2__title'>↓ Educacion ↓</h1>
+          </div>
+
+          <h1 className='HomeSect4__Title'>Títulos</h1>  
+
+          <div className='HomeSect4__Main'>
+
+
+            <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Institución</h4>
+                <p className='TargetaSec4__Text'>Pro Camilo Torres Restrepo</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <div>
+                  <h4 className='TargetaSec4__Title'>Título</h4>
+                  <p className='TargetaSec4__Text'>Bachiller</p>
+                </div>
+
+                <div>
+                  <h4 className='TargetaSec4__Title'>Fecha</h4>
+                  <p className='TargetaSec4__Text'>Diciembre del 2017</p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Institución</h4>
+                <p className='TargetaSec4__Text'>Cesde</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <h4 className='TargetaSec4__Title'>Título</h4>
+                <p className='TargetaSec4__Text'>Tecnico laboral como asistente en desarrollo de software</p>
+                <h4 className='TargetaSec4__Title'>Fecha</h4>
+                <p className='TargetaSec4__Text'>Julio del 2023</p>
+              </div>
+            </div>
+
+          
+          </div>
+
+          <h1 className='HomeSect4__Title'>Cursos y certificados</h1>  
+
+          <div className='HomeSect4__Main'>
+
+
+            <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Entidad</h4>
+                <p className='TargetaSec4__Text'>Platzi</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <div>
+                  <h4 className='TargetaSec4__Title'>Curso</h4>
+                  <p className='TargetaSec4__Text'>Curso Definitivo de HTML y CSS</p>
+                </div>
+
+                <div>
+                  <h4 className='TargetaSec4__Title'>Fecha</h4>
+                  <p className='TargetaSec4__Text'>31 de octubre de 2022</p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Institución</h4>
+                <p className='TargetaSec4__Text'>Universidad de antioquia</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <h4 className='TargetaSec4__Title'>Certificado</h4>
+                <p className='TargetaSec4__Text'>Programación web</p>
+                <h4 className='TargetaSec4__Title'>Fecha</h4>
+                <p className='TargetaSec4__Text'>10 de noviembre de 2023</p>
+              </div>
+            </div>
+
+            <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Entidad</h4>
+                <p className='TargetaSec4__Text'>Renault Group</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <h4 className='TargetaSec4__Title'>Certificado</h4>
+                <p className='TargetaSec4__Text'>Excelente desempeño academico</p>
+                <h4 className='TargetaSec4__Title'>Fecha</h4>
+                <p className='TargetaSec4__Text'>Abril de 2023</p>
+              </div>
+            </div>
+
+          </div>
+
+
+          {/* Estudios sin finalizar */}
+
+          <h1 className='HomeSect4__Title'>Estudios sin terminar</h1>  
+
+
+          <div className='HomeSect4__Main'>
+
+
+            <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Institución</h4>
+                <p className='TargetaSec4__Text'>Politecnico Grancolombiano</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <div>
+                  <h4 className='TargetaSec4__Title'>Carrera</h4>
+                  <p className='TargetaSec4__Text'>Negocios internacionales</p>
+                </div>
+
+                <div>
+                  <h4 className='TargetaSec4__Title'>Estudie</h4>
+                  <p className='TargetaSec4__Text'>7 semestres</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          
+
+          
+
+          
 
         </section>
 
