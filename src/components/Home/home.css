@@ -508,9 +508,9 @@
 .HomeSect4__Main{
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
   margin: 0 auto;
-  gap: 50px;
+  justify-content: center;
+  gap: 25px;
   margin-bottom: 60px;
 }
 
@@ -566,6 +566,13 @@
     width: 60%;
   }
 
+  .HomeSect4__Main{
+    gap: 25px;
+    justify-content: space-evenly;
+  }
+
+
+
 }
 
 
@@ -583,34 +590,26 @@
 
   .TargetaSec3{
     width: 95%;
-    display: flex;
     justify-content: space-between;
-    border: solid 1px black;
-    border-radius: 10px;
   }
 
   .TargetaSec3__elemento{
     width: 50%;
-    padding: 20px;
   }
   
-  .TargetaSec3__ContDetalle{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    gap: 13px;
-  }
-  
-  
-  .TargetaSec3__Icon{
-    width: 50px;
-    height: 50px;
-  }
 
   /* seccion 3 */
 
+  .HomeSect4__Main{
+    justify-content: start;
+    width: 75%;
+  }
+
 
 }
+
+
+
 
 @media(max-width:1180px){
   .habBlandas__Item:nth-child(odd) {
@@ -621,6 +620,7 @@
   .habBlandas__Item:nth-child(even) {
     background-color: #ffff; /* Cambia el color según tus preferencias */
   }
+
 
 }
 
