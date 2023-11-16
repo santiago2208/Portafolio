@@ -281,12 +281,17 @@
 
 
 .habBlandas__Item{
-  width: 50%;
   display: flex;
-  padding: 20px 30px;
-  justify-content: space-evenly;
   align-items: center;
+  padding-top: 20px;   
+  padding-bottom: 20px;
+  justify-content: center; 
+  gap: 30px;
 }
+
+
+
+
 
 .bordeRadioLeft_up{
   border-radius: 5px 0 0 0;
@@ -310,24 +315,25 @@
 
 
 
-.borderLeft{
-  border-left: solid 1px #59AB6E;
-}
-
-.borderRight{
-  border-right: solid 1px #59AB6E;
-}
-
 .habBlandas__Icono{
-  height: 130px;
-  width: 130px;
+ display: none;
 }
 
 .habBlandas__Text1{
-  width: 60%;
-  text-align:justify;
+  width: 90%;
   margin-bottom: 0px;
+  text-align: justify;
 }
+
+.orden1{
+  order: 1;
+}
+
+.orden2{
+  order: 2;
+}
+
+
 
 
 .MaxWith1000px{
@@ -548,11 +554,22 @@
 }
 
 
+
 @media(min-width:600px){
 
- 
+  .habBlandas__Icono{
+    display: block;
+    height: 130px;
+    width: 130px;
+  }
+
+  .habBlandas__Text1{
+    width: 60%;
+  }
 
 }
+
+
 
 
 @media(min-width:800px){
@@ -562,7 +579,52 @@
     width: 40%;
     min-height: 65vh;
   }
+
+}
+
+@media(max-width:1180px){
+  .habBlandas__Item:nth-child(odd) {
+    background-color: #EFEFEF; /* Cambia el color según tus preferencias */
+  }
   
+  /* Estilo para elementos pares */
+  .habBlandas__Item:nth-child(even) {
+    background-color: #ffff; /* Cambia el color según tus preferencias */
+  }
+
+}
+
+
+@media(min-width:1180px){
+
+  .habBlandas__Item{
+    width: 50%;
+    padding: 20px 30px;
+    gap: 0px;
+    justify-content: space-evenly;
+  }
+
+  .habBlandas__Text1{
+    text-align:justify;
+  }
+
+  .orden1{
+    order: 2;
+  }
+  
+  .orden2{
+    order: 1;
+  }
+
+  .borderLeft{
+    border-left: solid 1px #59AB6E;
+  }
+  
+  .borderRight{
+    border-right: solid 1px #59AB6E;
+  }
+ 
+
 }
 
 

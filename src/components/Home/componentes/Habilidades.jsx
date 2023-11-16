@@ -86,9 +86,9 @@ function Habilidades() {
             <p className='habBlandas__Text1'><b>Adaptacion:</b> Tengo la capacidad de adaptarme a diferentes tecnologías y herramientas de desarrollo. Incluso cuando se presentan limitaciones, demuestro flexibilidad y una disposición constante para aprender y utilizar nuevas soluciones tecnológicas.</p>
           </div>
 
-          <div className='habBlandas__Item borderLeft ColorGray bordeRadioRight_up'>
-            <p className='habBlandas__Text1'><b>Aprendizaje:</b> Me caracterizo por mi actitud de búsqueda constante de conocimientos y habilidades, tanto en términos de desarrollo técnico como de habilidades blandas. Mi interés está en el crecimiento personal y la mejora continua.</p>
-            <img className='habBlandas__Icono' src={libroLapiz} alt="Icono de un libro con serebro" />
+          <div className='habBlandas__Item borderLeft ColorGray bordeRadioRight_up '>
+            <p className='habBlandas__Text1 orden2'><b>Aprendizaje:</b> Me caracterizo por mi actitud de búsqueda constante de conocimientos y habilidades, tanto en términos de desarrollo técnico como de habilidades blandas. Mi interés está en el crecimiento personal y la mejora continua.</p>
+            <img className='habBlandas__Icono orden1' src={libroLapiz} alt="Icono de un libro con serebro" />
           </div>
 
           <div className='habBlandas__Item borderRight'>
@@ -97,8 +97,8 @@ function Habilidades() {
           </div>
 
           <div className='habBlandas__Item borderLeft'>
-            <p className='habBlandas__Text1'><b>Requerimientos:</b> Mi enfoque principal es atender y priorizar las necesidades del cliente o del empleador. Me aseguro de que los proyectos cumplan con las expectativas y los objetivos establecidos.</p>
-            <img className='habBlandas__Icono' src={requerimientoLapiz} alt="Icono de Requerimientos" />
+            <p className='habBlandas__Text1 orden2'><b>Requerimientos:</b> Mi enfoque principal es atender y priorizar las necesidades del cliente o del empleador. Me aseguro de que los proyectos cumplan con las expectativas y los objetivos establecidos.</p>
+            <img className='habBlandas__Icono orden1' src={requerimientoLapiz} alt="Icono de Requerimientos" />
           </div>
 
           <div className='habBlandas__Item borderRight ColorGray bordeRadioLeft_down'>
@@ -107,8 +107,8 @@ function Habilidades() {
           </div>
 
           <div className='habBlandas__Item borderLeft ColorGray bordeRadioRight_down'>
-            <p className='habBlandas__Text1'><b>Trabajo en Equipo:</b> Me destaco por trabajar eficazmente en equipos, fomentando la colaboración y el apoyo mutuo. Siempre estoy dispuesto a escuchar y valorar las ideas de los demás, y aportar las mías. Además, tengo la flexibilidad y la disposición para asumir el liderazgo cuando la situación lo requiere</p>
-            <img className='habBlandas__Icono' src={gestion_de_equiposLapiz} alt="Icono de desafios" />
+            <p className='habBlandas__Text1 orden2'><b>Trabajo en Equipo:</b> Me destaco por trabajar eficazmente en equipos, fomentando la colaboración y el apoyo mutuo. Siempre estoy dispuesto a escuchar y valorar las ideas de los demás, y aportar las mías. Además, tengo la flexibilidad y la disposición para asumir el liderazgo cuando la situación lo requiere</p>
+            <img className='habBlandas__Icono orden1' src={gestion_de_equiposLapiz} alt="Icono de desafios" />
           </div>
 
         </div>
