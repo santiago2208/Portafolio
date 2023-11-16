@@ -91,6 +91,7 @@ function Home() {
             <h1 className='HomeSect2__title'>↓ Experiencia laboral ↓</h1>
           </div>  
 
+            {/* primera targeta seccion 3 */}
           <div className='TargetaSec3'>
 
             <div className='TargetaSec3__elemento'>
