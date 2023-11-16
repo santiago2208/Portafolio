@@ -16,21 +16,10 @@
   flex-wrap: wrap;
 }
 
-
-
-  
 .HomeSect1__contleft{
-  margin-left: -450px;
-  transition: margin-left 1s ease-in-out;
-  animation: aparecer 1s forwards;
-  margin-right: 20px;
+
 }
 
-@keyframes aparecer {
-  to {
-    margin-left: 0; 
-  }
-}
 
 .HomeSect1__FotoSanti{
   width: auto;
@@ -49,16 +38,9 @@
   box-shadow: 1px 1px 5px 5px rgb(108, 108, 108);
   border-radius: 5px; */
 
-  margin-right: -450px;
-  transition: margin-left 1s ease-in-out;
-  animation: aparecer2 1s forwards;
+
 }
 
-@keyframes aparecer2 {
-  to {
-    margin-right: 0; 
-  }
-}
 
 
 .HomeSect1__Title{
@@ -398,9 +380,9 @@
   padding: 20px 30px;
 }
 
-.Modal__header{
+/* .Modal__header{
 
-}
+} */
 
 .Modal__title{
   text-align: center;
@@ -408,9 +390,9 @@
 }
 
 
-.Modal__Main{
+/* .Modal__Main{
 
-}
+} */
 
 .Modal__Fotter{
   display: flex;
@@ -466,9 +448,9 @@
   height: 50px;
 }
 
-.TargetaSec3__TitleLeft{
+/* .TargetaSec3__TitleLeft{
 
-}
+} */
 
 .TargetaSec3__TitleRight{
   text-align: center;
@@ -554,6 +536,22 @@
 
 
 
+@media(max-width:430px){
+
+  .HomeSect1__contleft{
+    width: 95%;
+  }
+  
+  
+  .HomeSect1__FotoSanti{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+
 @media(min-width:600px){
 
   .habBlandas__Icono{
@@ -580,11 +578,38 @@
 
 @media(min-width:800px){
 
+  .HomeSect1__contleft{
+    margin-left: -450px;
+    transition: margin-left 1s ease-in-out;
+    animation: aparecer 1s forwards;
+    margin-right: 20px;
+  }
+  
+  @keyframes aparecer {
+    to {
+      margin-left: 0; 
+    }
+  }
+
   .HomeSect1__contRight{
     margin-top: 0;
     width: 40%;
     min-height: 65vh;
+
+    margin-right: -450px;
+    transition: margin-left 1s ease-in-out;
+    animation: aparecer2 1s forwards;
   }
+
+    
+  @keyframes aparecer2 {
+    to {
+      margin-right: 0; 
+    }
+  }
+
+
+
 
   /*seccion 3*/
 
@@ -604,7 +629,6 @@
     justify-content: start;
     width: 75%;
   }
-
 
 }
 
@@ -626,6 +650,8 @@
 
 
 @media(min-width:1180px){
+
+
 
 
   .habBlandas__Item{
