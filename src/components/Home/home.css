@@ -116,7 +116,7 @@
 .HomeSect2__ContSkills{
   box-shadow: 0px 0px 10px 0px rgb(119, 118, 118);
   border-radius: 5px;
-  width: 80vw;
+  width: 95%;
   margin: 15px auto;
   padding: 15px 0;
   background-color: #ffff;
@@ -225,7 +225,7 @@
 
 .HomeSect2__main2{
   margin: 0 auto;
-  width: 80vw;
+  width: 95%;
   position: relative;
 }
 
@@ -246,7 +246,7 @@
 
 .moveBtnHVIzq{
   transition: transform 0.3s;
-  transform: translateX(-50px);
+  transform: translateY(-50px);
   box-shadow: 0px 0px 10px 1px rgb(112, 111, 111);
 }
 
@@ -608,6 +608,21 @@
     }
   }
 
+
+  .moveBtnHVIzq{
+    transition: transform 0.3s;
+    transform: translateX(-50px);
+    box-shadow: 0px 0px 10px 1px rgb(112, 111, 111);
+  }
+
+
+  .HomeSect2__ContSkills{
+    width: 80vw;
+    }
+
+    .HomeSect2__main2{
+      width: 80vw;
+    }
 
 
 
