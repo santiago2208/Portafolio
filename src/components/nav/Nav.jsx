@@ -19,9 +19,9 @@ function Nav() {
         </Link>
 
         <div className='nav__ContMenu'>
-            <Link className='nav__MenuOpcion nav__MenuOpcion--hover'>Proyectos</Link>
+            {/* <Link className='nav__MenuOpcion nav__MenuOpcion--hover'>Proyectos</Link>
             <Link className='nav__MenuOpcion nav__MenuOpcion--hover'>Sobre mi</Link>
-            <Link className='nav__MenuOpcion nav__MenuOpcion--hover'>Interaccion</Link>
+            <Link className='nav__MenuOpcion nav__MenuOpcion--hover'>Interaccion</Link> */}
         </div>
     </nav>
   )
