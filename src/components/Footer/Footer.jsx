@@ -34,7 +34,7 @@ function Nav() {
           <div className='Footer__element'>
             <div className='Footer__info' title='Celular'>
               <img className='Footer__Icon' src={Icon_telefono} alt="icono de telefono" />
-              <p className='Footer__Text'>3195584703</p>
+              <p className='Footer__Text'>+57 3195584703</p>
             </div>
 
             <div className='Footer__info' title='Correo electronico'>

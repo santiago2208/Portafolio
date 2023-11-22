@@ -45,12 +45,14 @@ function Home() {
           <section className='HomeSect1__contRight'>
             <h1 className='HomeSect1__Title'>Sobre mi</h1>
             <p className='HomeSect1__Text'>
-              Hola, soy Santiago Alvarez Porras, soy Desarrollador de software con fortaleza en el desarrollo web, tengo solidos conocimientos en HTML y CSS, actualemnte uso mucho y estoy fortaleciendo el uso de React, Firebase, git y GitHub. <br /><br />
+              Hola, mi nombres es Santiago Alvarez Porras y soy tecnico en desarrollo de software con solidos conocimientos en HTML y CSS. <br /><br />
 
-              Tengo experiencia laboral como desarrollador fullStack y como asistente en desarrollo de software, Actualemente estoy en busca de empleo, preferiblemente en desarrollo web. Ademas de buscar empleo tambien estoy formandome mas utilizando la plataforma de platzi  y estoy desarrolladon proyectos personales
+              Tengo experiencia laboral como desarrollador fullStack y como asistente en desarrollo de software. En ambos roles, desempeñé un papel fundamental en el desarrollo inicial de las aplicaciones. Contribuí significativamente al backend, participando en la creación de la lógica para el inicio de sesión, implementando operaciones CRUD con la información y encargándome de la maquetación de las aplicaciones.
 
               <br /> <br />
-              Me apaciona aprender cosas nuevas, programar y pensar en soluciones a diferentes problemas sociales y medioa ambientales atravez de la tecnologia o emprendimientos.
+              Me apasiona aprender cosas nuevas, programar y encontrar soluciones innovadoras para abordar problemas sociales y medioambientales utilizando la tecnología y el emprendimiento.
+
+              
             </p>
           </section>
         </section>
@@ -151,7 +153,9 @@ function Home() {
 
             <div className='TargetaSec3__elemento'>
               <h3 className='TargetaSec3__TitleRight'>Tareas realizadas</h3>
-              <p className='TargetaSec3__textRight'>Durante mi experiencia como freelancer, colaboré en el desarrollo de una aplicación web. En este proyecto, desempeñé roles tanto en el front-end como en el back-end. Una de mis principales responsabilidades fue la implementación de la API de Firebase. </p>
+              {/* <p className='TargetaSec3__textRight'>Durante mi experiencia como freelancer, colaboré en el desarrollo de una aplicación web. En este proyecto, desempeñé roles tanto en el front-end como en el back-end. Una de mis principales responsabilidades fue la implementación de la API de Firebase. </p> */}
+              <p className='TargetaSec3__textRight'>Colaboré integralmente en el desarrollo de una aplicación web como freelancer, participando en roles de front-end y back-end. Contribuí significativamente en la implementación de la API de Firebase, realizando operaciones CRUD, ayudé en el diseño de la lógica y maquetación para funciones clave como inicio de sesión, recuperación de contraseñas y eliminación de cuentas de usuarios. Además, migre el proyecto de Webpack a Vite y gestioné eficazmente la integración de cambios mediante Git y GitHub. </p>
+
             </div>
           </div>
 
