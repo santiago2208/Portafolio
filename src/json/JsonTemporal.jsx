@@ -24,7 +24,7 @@ const skills = [
 
         {
         habilidades: "Trabajo en Equipo",
-        descripcion: "Me destaco por trabajar eficazmente en equipos, fomentando la colaboración y el apoyo mutuo. Siempre estoy dispuesto a escuchar y valorar las ideas de los demás, y aportar las mías. Además, tengo la flexibilidad y la disposición para asumir el liderazgo cuando la situación lo requiere",
+        descripcion: "Me destaco por trabajar eficazmente en equipos, fomentando la colaboración y el apoyo mutuo. Siempre estoy dispuesto a escuchar y valorar las ideas de los demás, y aportar las mías. Además, tengo la flexibilidad y la disposición para asumir el liderazgo cuando la situación lo requiere.",
         },
         
     ]

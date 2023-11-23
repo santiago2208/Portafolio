@@ -107,7 +107,7 @@ function Habilidades() {
           </div>
 
           <div className='habBlandas__Item borderLeft ColorGray bordeRadioRight_down'>
-            <p className='habBlandas__Text1 orden2'><b>Trabajo en Equipo:</b> Me destaco por trabajar eficazmente en equipos, fomentando la colaboración y el apoyo mutuo. Siempre estoy dispuesto a escuchar y valorar las ideas de los demás, y aportar las mías. Además, tengo la flexibilidad y la disposición para asumir el liderazgo cuando la situación lo requiere</p>
+            <p className='habBlandas__Text1 orden2'><b>Trabajo en Equipo:</b> Me destaco por trabajar eficazmente en equipos, fomentando la colaboración y el apoyo mutuo. Siempre estoy dispuesto a escuchar y valorar las ideas de los demás, y aportar las mías. Además, tengo la flexibilidad y la disposición para asumir el liderazgo cuando la situación lo requiere.</p>
             <img className='habBlandas__Icono orden1' src={gestion_de_equiposLapiz} alt="Icono de desafios" />
           </div>
 

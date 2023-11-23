@@ -99,7 +99,7 @@ function Home() {
             <div className='TargetaSec3__elemento'>
                 <div className='TargetaSec3__ContDetalle' title='Empresa'>
                   <img className='TargetaSec3__Icon' src={IconEmpresa} alt="Icono de Empresa" />
-                  <h3  className='TargetaSec3__TitleLeft'>Empresas públicas de medellín</h3>
+                  <h3  className='TargetaSec3__TitleLeft'>Empresas públicas de Medellín</h3>
                 </div>
 
                 <div className='TargetaSec3__ContDetalle' title='Fecha de ingreso y salida'>
