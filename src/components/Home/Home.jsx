@@ -208,10 +208,61 @@ function Home() {
           
           </div>
 
+          {/* Cursos y certificados */}
+
           <h1 className='HomeSect4__Title'>Cursos y certificados</h1>  
 
           <div className='HomeSect4__Main'>
 
+
+
+          <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Entidad</h4>
+                <p className='TargetaSec4__Text'>Platzi</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <div>
+                  <h4 className='TargetaSec4__Title'>Curso</h4>
+                  <p className='TargetaSec4__Text'>Curso basico de C#</p>
+                </div>
+
+                <div>
+                  <h4 className='TargetaSec4__Title'>Fecha</h4>
+                  <p className='TargetaSec4__Text'>19 de febrero de 2022</p>
+                </div>
+              </div>
+            </div>
+       
+
+          <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Institución</h4>
+                <p className='TargetaSec4__Text'>Universidad de antioquia</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <h4 className='TargetaSec4__Title'>Certificado</h4>
+                <p className='TargetaSec4__Text'>Programación web</p>
+                <h4 className='TargetaSec4__Title'>Fecha</h4>
+                <p className='TargetaSec4__Text'>10 de noviembre de 2023</p>
+              </div>
+            </div>
+            
+
+            <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Entidad</h4>
+                <p className='TargetaSec4__Text'>Renault Group</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <h4 className='TargetaSec4__Title'>Certificado</h4>
+                <p className='TargetaSec4__Text'>Excelente desempeño academico</p>
+                <h4 className='TargetaSec4__Title'>Fecha</h4>
+                <p className='TargetaSec4__Text'>Abril de 2023</p>
+              </div>
+            </div>
+
+            
 
             <div className='TargetaSec4'>
               <div className='TargetaSec4__Header'>
@@ -228,34 +279,6 @@ function Home() {
                   <h4 className='TargetaSec4__Title'>Fecha</h4>
                   <p className='TargetaSec4__Text'>31 de octubre de 2022</p>
                 </div>
-              </div>
-            </div>
-
-
-
-            <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Institución</h4>
-                <p className='TargetaSec4__Text'>Universidad de antioquia</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <h4 className='TargetaSec4__Title'>Certificado</h4>
-                <p className='TargetaSec4__Text'>Programación web</p>
-                <h4 className='TargetaSec4__Title'>Fecha</h4>
-                <p className='TargetaSec4__Text'>10 de noviembre de 2023</p>
-              </div>
-            </div>
-
-            <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Entidad</h4>
-                <p className='TargetaSec4__Text'>Renault Group</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <h4 className='TargetaSec4__Title'>Certificado</h4>
-                <p className='TargetaSec4__Text'>Excelente desempeño academico</p>
-                <h4 className='TargetaSec4__Title'>Fecha</h4>
-                <p className='TargetaSec4__Text'>Abril de 2023</p>
               </div>
             </div>
 

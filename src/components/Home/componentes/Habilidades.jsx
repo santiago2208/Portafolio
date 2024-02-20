@@ -51,12 +51,6 @@ function Habilidades() {
 
   
 
-
-  
-
-
-
-
   const Toggle_HabBlan_Vista = () => {
     setHabBlan_descripcion(!HabBlan_Vista); 
   };
