@@ -47,7 +47,7 @@ function Home() {
             <p className='HomeSect1__Text'>
               Hola, mi nombres es Santiago Alvarez Porras y soy tecnico en desarrollo de software con solidos conocimientos en HTML y CSS. <br /><br />
 
-              Tengo experiencia laboral como desarrollador fullStack y como asistente en desarrollo de software. En ambos roles, desempeñé un papel fundamental en el desarrollo inicial de las aplicaciones. Contribuí significativamente al backend, participando en la creación de la lógica para el inicio de sesión, implementando operaciones CRUD con la información y encargándome de la maquetación de las aplicaciones.
+              Tengo experiencia laboral como desarrollador front-end y como asistente en desarrollo de software. En ambos roles, desempeñé un papel fundamental en el desarrollo inicial de las aplicaciones. Contribuí significativamente en la creación de la lógica para el inicio de sesión, implementando operaciones CRUD con la información y encargándome de la maquetación de las aplicaciones.
 
               <br /> <br />
               Me apasiona aprender cosas nuevas, programar y encontrar soluciones innovadoras para abordar problemas sociales y medioambientales utilizando la tecnología y el emprendimiento.
@@ -214,7 +214,23 @@ function Home() {
 
           <div className='HomeSect4__Main'>
 
+          <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Entidad</h4>
+                <p className='TargetaSec4__Text'>Platzi</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <div>
+                  <h4 className='TargetaSec4__Title'>Curso</h4>
+                  <p className='TargetaSec4__Text'>Programación orientada a objetos con C#</p>
+                </div>
 
+                <div>
+                  <h4 className='TargetaSec4__Title'>Fecha</h4>
+                  <p className='TargetaSec4__Text'>29 de febrero de 2024</p>
+                </div>
+              </div>
+            </div>
 
           <div className='TargetaSec4'>
               <div className='TargetaSec4__Header'>
@@ -229,7 +245,7 @@ function Home() {
 
                 <div>
                   <h4 className='TargetaSec4__Title'>Fecha</h4>
-                  <p className='TargetaSec4__Text'>19 de febrero de 2022</p>
+                  <p className='TargetaSec4__Text'>19 de febrero de 2024</p>
                 </div>
               </div>
             </div>

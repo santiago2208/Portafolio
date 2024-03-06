@@ -146,10 +146,28 @@ function Tecnologias() {
                 <p className='HomeSect2__logosText'>6 meses aprendiendo y usando esta herramienta</p>
               </div>
             </div>
+
+            <div className="HomeSect2__Logos">
+            <img className='HomeSect2_LogosItem' src={C_Sharp} alt="" />
+            <div className='HomeSect2_LogosDescripcion'>
+                <h5 className='HomeSect2__logosTitle'>C Sharp</h5>
+                <p className='HomeSect2__logosText'>1 mes o menos aprendiendo y usando esta tecnologia</p>
+              </div>
+          </div>
           </>)}
 
 
           {UsandoActua && (<>
+
+          <div className="HomeSect2__Logos">
+            <img className='HomeSect2_LogosItem' src={C_Sharp} alt="" />
+            <div className='HomeSect2_LogosDescripcion'>
+              <h5 className='HomeSect2__logosTitle'>C Sharp</h5>
+              <p className='HomeSect2__logosText'>1 mes o menos aprendiendo y usando esta tecnologia</p>
+            </div>
+          </div>
+
+
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem ' src={ReactLogo} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
@@ -310,13 +328,6 @@ function Tecnologias() {
             <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>Appsheet</h5>
                 <p className='HomeSect2__logosText'>1 mes o menos aprendiendo y usando esta herramienta</p>
-              </div>
-          </div>
-          <div className="HomeSect2__Logos">
-            <img className='HomeSect2_LogosItem' src={C_Sharp} alt="" />
-            <div className='HomeSect2_LogosDescripcion'>
-                <h5 className='HomeSect2__logosTitle'>C Sharp</h5>
-                <p className='HomeSect2__logosText'>1 mes o menos aprendiendo y usando esta tecnologia</p>
               </div>
           </div>
        
