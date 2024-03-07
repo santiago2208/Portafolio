@@ -222,6 +222,24 @@ function Home() {
               <div className='TargetaSec4__Main'>
                 <div>
                   <h4 className='TargetaSec4__Title'>Curso</h4>
+                  <p className='TargetaSec4__Text'>Buenas prácticas y codigo limpio en C#</p>
+                </div>
+
+                <div>
+                  <h4 className='TargetaSec4__Title'>Fecha</h4>
+                  <p className='TargetaSec4__Text'>07 de marzo de 2024</p>
+                </div>
+              </div>
+            </div>
+
+          <div className='TargetaSec4'>
+              <div className='TargetaSec4__Header'>
+                <h4 className='TargetaSec4__Title'>Entidad</h4>
+                <p className='TargetaSec4__Text'>Platzi</p>
+              </div>
+              <div className='TargetaSec4__Main'>
+                <div>
+                  <h4 className='TargetaSec4__Title'>Curso</h4>
                   <p className='TargetaSec4__Text'>Programación orientada a objetos con C#</p>
                 </div>
 
@@ -288,7 +306,7 @@ function Home() {
               <div className='TargetaSec4__Main'>
                 <div>
                   <h4 className='TargetaSec4__Title'>Curso</h4>
-                  <p className='TargetaSec4__Text'>Curso Definitivo de HTML y CSS</p>
+                  <p className='TargetaSec4__Text'>Curso definitivo de HTML y CSS</p>
                 </div>
 
                 <div>
