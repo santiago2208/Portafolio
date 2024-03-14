@@ -32,47 +32,6 @@ function Home() {
     setShowHabilidades(true); 
   };
 
-  const Educacion = {
-    titulos: [
-      {
-        institucion: 'Pro Camilo Torres Restrepo',
-        titulo: 'Bachiller',
-        fecha: 'Diciembre del 2017'
-      },
-      {
-        institucion: 'Cesde',
-        titulo: 'Tecnico laboral como asistente en desarrollo de software',
-        fecha: 'Julio del 2023'
-      }
-    ],
-    cursos_Certificados: [
-      {
-        tipo: 'Curso',
-        entidad: 'Platzi',
-        nombreCurso: 'Buenas prácticas y codigo limpio en C#',
-        fecha: '07 de marzo de 2024'
-      },
-      {
-        tipo: 'Curso',
-        entidad: 'Platzi',
-        nombreCurso: 'Programación orientada a objetos con C#',
-        fecha: '29 de febrero de 2024'
-      },
-      {
-        tipo: 'Curso',
-        entidad: 'Platzi',
-        nombreCurso: 'Curso basico de C#',
-        fecha: '19 de febrero de 2024'
-      },
-      {
-        tipo: 'Certificado',
-        entidad: 'Universidad de antioquia',
-        nombreCurso: 'Programación web',
-        fecha: '10 de noviembre de 2023'
-      },
-      
-    ]
-  }
 
   return (
     <main>
