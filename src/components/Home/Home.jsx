@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import Tecnologias from './componentes/Tecnologias'
 import Habilidades from './componentes/Habilidades'
 import FotoSantiago from '../../assets/img/HomeImg/fotoSanti2.jpeg'
-import'./Home.css'
+import './Home.css'
 
 import IconEmpresa from '../../assets/img/HomeImg/Exp_Laboral/Empresa.png'
 import iconCargo from '../../assets/img/HomeImg/Exp_Laboral/Cargo.png'
@@ -22,14 +22,15 @@ function Home() {
 
 
 
+
   const ToggleTecnologias = () => {
-    setShowHabilidades(false); 
-    setShowTecnologias(true); 
+    setShowHabilidades(false);
+    setShowTecnologias(true);
   };
 
   const ToggleHabilidades = () => {
-    setShowTecnologias(false); 
-    setShowHabilidades(true); 
+    setShowTecnologias(false);
+    setShowHabilidades(true);
   };
 
   const Educacion = {
@@ -47,43 +48,64 @@ function Home() {
     ],
     cursos_Certificados: [
       {
-        tipo: 'Curso',
+        headerText: 'Entidad',
         entidad: 'Platzi',
+        tipo: 'Curso',
         nombreCurso: 'Buenas prácticas y codigo limpio en C#',
         fecha: '07 de marzo de 2024'
       },
       {
-        tipo: 'Curso',
+        headerText: 'Entidad',
         entidad: 'Platzi',
+        tipo: 'Curso',
         nombreCurso: 'Programación orientada a objetos con C#',
         fecha: '29 de febrero de 2024'
       },
       {
-        tipo: 'Curso',
+        headerText: 'Entidad',
         entidad: 'Platzi',
+        tipo: 'Curso',
         nombreCurso: 'Curso basico de C#',
         fecha: '19 de febrero de 2024'
       },
       {
-        tipo: 'Certificado',
+        headerText: 'Institución',
         entidad: 'Universidad de antioquia',
+        tipo: 'Certificado',
         nombreCurso: 'Programación web',
         fecha: '10 de noviembre de 2023'
       },
-      
+      {
+        headerText: 'Entidad',
+        entidad: 'Renault Group',
+        tipo: 'Certificado',
+        nombreCurso: 'Excelente desempeño academico',
+        fecha: 'Abril de 2023'
+      },
+      {
+        headerText: 'Entidad',
+        entidad: 'Platzi',
+        tipo: 'Curso',
+        nombreCurso: 'Curso definitivo de HTML y CSS',
+        fecha: '31 de octubre de 2022'
+      },
+
     ]
   }
+
+
+
 
   return (
     <main>
       <section className='HomeCont'>
-      
+
         <section className='HomeSect1'>
           <section className='HomeSect1__contleft'>
             {/* <h2>Santiago Alvarez Porras</h2> {//posible opcion}*/}
             <img src={FotoSantiago} className='HomeSect1__FotoSanti' alt="" />
           </section>
-          
+
           <section className='HomeSect1__contRight'>
             <h1 className='HomeSect1__Title'>Sobre mi</h1>
             <p className='HomeSect1__Text'>
@@ -94,76 +116,76 @@ function Home() {
               <br /> <br />
               Me apasiona aprender cosas nuevas, programar y encontrar soluciones innovadoras para abordar problemas sociales y medioambientales utilizando la tecnología y el emprendimiento.
 
-              
+
             </p>
           </section>
         </section>
 
-        
+
         <section className='HomeSect2'>
           <div className='HomeSect2__Header'>
             <h1 className='HomeSect2__title'>↓ Skills ↓</h1>
-          </div>  
+          </div>
 
           <div className='HomeSect2__Main'>
             <div className='HomeSect2__Opciones'>
-              <div className={`HomeSect2__btnleft ${ShowTecnologias ? 'btnSelected1':''}`} 
-              onClick={ToggleTecnologias}
+              <div className={`HomeSect2__btnleft ${ShowTecnologias ? 'btnSelected1' : ''}`}
+                onClick={ToggleTecnologias}
               >
                 Uso de tecnologias
               </div>
-              <div className={`HomeSect2__btnRight ${ShowHabilidades ? 'btnSelected1':''}`}
-              onClick={ToggleHabilidades}>
+              <div className={`HomeSect2__btnRight ${ShowHabilidades ? 'btnSelected1' : ''}`}
+                onClick={ToggleHabilidades}>
                 Habilidades blandas
               </div>
 
               <div ></div>
             </div>
 
-              {ShowTecnologias && (
-                <Tecnologias/>
-              )}
+            {ShowTecnologias && (
+              <Tecnologias />
+            )}
 
-              {ShowHabilidades && (
-                <Habilidades/>
-              )}
+            {ShowHabilidades && (
+              <Habilidades />
+            )}
           </div>
         </section>
 
         <section className='HomeSect3'>
           <div className='HomeSect2__Header'>
             <h1 className='HomeSect2__title'>↓ Experiencia laboral ↓</h1>
-          </div>  
+          </div>
 
-            {/* primera targeta seccion 3 */}
+          {/* primera targeta seccion 3 */}
           <div className='TargetaSec3'>
 
             <div className='TargetaSec3__elemento'>
-                <div className='TargetaSec3__ContDetalle' title='Empresa'>
-                  <img className='TargetaSec3__Icon' src={IconEmpresa} alt="Icono de Empresa" />
-                  <h3  className='TargetaSec3__TitleLeft'>Empresas públicas de Medellín</h3>
-                </div>
+              <div className='TargetaSec3__ContDetalle' title='Empresa'>
+                <img className='TargetaSec3__Icon' src={IconEmpresa} alt="Icono de Empresa" />
+                <h3 className='TargetaSec3__TitleLeft'>Empresas públicas de Medellín</h3>
+              </div>
 
-                <div className='TargetaSec3__ContDetalle' title='Fecha de ingreso y salida'>
-                  <img className='TargetaSec3__Icon' src={iconFecha} alt="Icono de Empresa" />
-                  <h3 className='TargetaSec3__TitleLeft'>Enero/2023 – Julio/2023</h3>
-                </div>
+              <div className='TargetaSec3__ContDetalle' title='Fecha de ingreso y salida'>
+                <img className='TargetaSec3__Icon' src={iconFecha} alt="Icono de Empresa" />
+                <h3 className='TargetaSec3__TitleLeft'>Enero/2023 – Julio/2023</h3>
+              </div>
 
-                <div className='TargetaSec3__ContDetalle' title='Cargo'>
-                  <img className='TargetaSec3__Icon' src={iconCargo} alt="Icono de Empresa" />
-                  <h3 className='TargetaSec3__TitleLeft'>Asistente en desarrollo de software</h3>
-                </div>
+              <div className='TargetaSec3__ContDetalle' title='Cargo'>
+                <img className='TargetaSec3__Icon' src={iconCargo} alt="Icono de Empresa" />
+                <h3 className='TargetaSec3__TitleLeft'>Asistente en desarrollo de software</h3>
+              </div>
 
-                <div className='TargetaSec3__ContDetalle marginButton0' title='Tecnologias usadas'>
-                  <img className='TargetaSec3__Icon' src={iconTecnologias} alt="Icono de Empresa" />
-                  <h3 className='TargetaSec3__TitleLeft'>Tecnologias y herramientas usadas</h3>
-                </div>
-                <p className='TargetaSec3__DesTec'>Power Apps, Power Automate y SharePoint</p>
+              <div className='TargetaSec3__ContDetalle marginButton0' title='Tecnologias usadas'>
+                <img className='TargetaSec3__Icon' src={iconTecnologias} alt="Icono de Empresa" />
+                <h3 className='TargetaSec3__TitleLeft'>Tecnologias y herramientas usadas</h3>
+              </div>
+              <p className='TargetaSec3__DesTec'>Power Apps, Power Automate y SharePoint</p>
             </div>
 
             <div className='TargetaSec3__elemento'>
-                <h3 className='TargetaSec3__TitleRight'>Tareas realizadas</h3>
-                <p className='TargetaSec3__textRight'>Durante mis prácticas en EPM, tuve la oportunidad de desarrollar una aplicación que ofrece una perspectiva detallada de las pruebas de funcionalidad llevadas a cabo en cada activo, lo que permitió la automatización de diversos procesos. Además, incorporé una funcionalidad que permite asignar tareas a los ayudantes, facilitando que estos consulten, directamente desde la aplicación, qué equipos requieren ser sometidos a pruebas.</p>
+              <h3 className='TargetaSec3__TitleRight'>Tareas realizadas</h3>
+              <p className='TargetaSec3__textRight'>Durante mis prácticas en EPM, tuve la oportunidad de desarrollar una aplicación que ofrece una perspectiva detallada de las pruebas de funcionalidad llevadas a cabo en cada activo, lo que permitió la automatización de diversos procesos. Además, incorporé una funcionalidad que permite asignar tareas a los ayudantes, facilitando que estos consulten, directamente desde la aplicación, qué equipos requieren ser sometidos a pruebas.</p>
             </div>
           </div>
 
@@ -171,26 +193,26 @@ function Home() {
           <div className='TargetaSec3'>
 
             <div className='TargetaSec3__elemento'>
-                <div className='TargetaSec3__ContDetalle' title='Empresa'>
-                  <img className='TargetaSec3__Icon' src={IconEmpresa} alt="Icono de Empresa" />
-                  <h3 className='TargetaSec3__TitleLeft'>Independiente</h3>
-                </div>
+              <div className='TargetaSec3__ContDetalle' title='Empresa'>
+                <img className='TargetaSec3__Icon' src={IconEmpresa} alt="Icono de Empresa" />
+                <h3 className='TargetaSec3__TitleLeft'>Independiente</h3>
+              </div>
 
-                <div className='TargetaSec3__ContDetalle' title='Fecha de ingreso y salida'>
-                  <img className='TargetaSec3__Icon' src={iconFecha} alt="Icono de Empresa" />
-                  <h3 className='TargetaSec3__TitleLeft'>Agosto/2023 – Septiembre/2023</h3>
-                </div>
+              <div className='TargetaSec3__ContDetalle' title='Fecha de ingreso y salida'>
+                <img className='TargetaSec3__Icon' src={iconFecha} alt="Icono de Empresa" />
+                <h3 className='TargetaSec3__TitleLeft'>Agosto/2023 – Septiembre/2023</h3>
+              </div>
 
-                <div className='TargetaSec3__ContDetalle' title='Cargo'>
-                  <img className='TargetaSec3__Icon' src={iconCargo} alt="Icono de Empresa" />
-                  <h3 className='TargetaSec3__TitleLeft'>Desarrollador web</h3>
-                </div>
+              <div className='TargetaSec3__ContDetalle' title='Cargo'>
+                <img className='TargetaSec3__Icon' src={iconCargo} alt="Icono de Empresa" />
+                <h3 className='TargetaSec3__TitleLeft'>Desarrollador web</h3>
+              </div>
 
-                <div className='TargetaSec3__ContDetalle marginButton0' title='Tecnologias usadas'>
-                  <img className='TargetaSec3__Icon' src={iconTecnologias} alt="Icono de Empresa" />
-                  <h3 className='TargetaSec3__TitleLeft'>Tecnologias y herramientas usadas</h3>
-                </div>
-                <p className='TargetaSec3__DesTec'>HTML, CSS, React, Vite, Node.js y Firebase.</p>
+              <div className='TargetaSec3__ContDetalle marginButton0' title='Tecnologias usadas'>
+                <img className='TargetaSec3__Icon' src={iconTecnologias} alt="Icono de Empresa" />
+                <h3 className='TargetaSec3__TitleLeft'>Tecnologias y herramientas usadas</h3>
+              </div>
+              <p className='TargetaSec3__DesTec'>HTML, CSS, React, Vite, Node.js y Firebase.</p>
             </div>
 
             <div className='TargetaSec3__elemento'>
@@ -209,161 +231,76 @@ function Home() {
             <h1 className='HomeSect2__title'>↓ Educacion ↓</h1>
           </div>
 
-          <h1 className='HomeSect4__Title'>Títulos</h1>  
+          <h1 className='HomeSect4__Title'>Títulos</h1>
 
           <div className='HomeSect4__Main'>
 
 
-            <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Institución</h4>
-                <p className='TargetaSec4__Text'>Pro Camilo Torres Restrepo</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <div>
-                  <h4 className='TargetaSec4__Title'>Título</h4>
-                  <p className='TargetaSec4__Text'>Bachiller</p>
+            {/* aqui se usa el map */}
+            {Educacion.titulos.map((titulo, index) => (
+
+              <div key={index} className='TargetaSec4'>
+                <div className='TargetaSec4__Header'>
+                  <h4 className='TargetaSec4__Title'>Institución</h4>
+                  <p className='TargetaSec4__Text'>{titulo.institucion}</p>
                 </div>
 
-                <div>
-                  <h4 className='TargetaSec4__Title'>Fecha</h4>
-                  <p className='TargetaSec4__Text'>Diciembre del 2017</p>
+                <div className='TargetaSec4__Main'>
+                  <div>
+                    <h4 className='TargetaSec4__Title'>Título</h4>
+                    <p className='TargetaSec4__Text'>{titulo.titulo}</p>
+                  </div>
+
+                  <div>
+                    <h4 className='TargetaSec4__Title'>Fecha</h4>
+                    <p className='TargetaSec4__Text'>{titulo.fecha}</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
+            ))}
 
-
-            <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Institución</h4>
-                <p className='TargetaSec4__Text'>Cesde</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <h4 className='TargetaSec4__Title'>Título</h4>
-                <p className='TargetaSec4__Text'>Tecnico laboral como asistente en desarrollo de software</p>
-                <h4 className='TargetaSec4__Title'>Fecha</h4>
-                <p className='TargetaSec4__Text'>Julio del 2023</p>
-              </div>
-            </div>
-
-          
           </div>
 
           {/* Cursos y certificados */}
 
-          <h1 className='HomeSect4__Title'>Cursos y certificados</h1>  
+          <h1 className='HomeSect4__Title'>Cursos y certificados</h1>
 
           <div className='HomeSect4__Main'>
 
-          <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Entidad</h4>
-                <p className='TargetaSec4__Text'>Platzi</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <div>
-                  <h4 className='TargetaSec4__Title'>Curso</h4>
-                  <p className='TargetaSec4__Text'>Buenas prácticas y codigo limpio en C#</p>
+
+
+            {/* aqui se usa el map */}
+            {Educacion.cursos_Certificados.map((Elemento, index) => (
+
+              <div key={index} className='TargetaSec4'>
+                <div className='TargetaSec4__Header'>
+                  <h4 className='TargetaSec4__Title'>{Elemento.headerText}</h4>
+                  <p className='TargetaSec4__Text'>{Elemento.entidad}</p>
                 </div>
 
-                <div>
-                  <h4 className='TargetaSec4__Title'>Fecha</h4>
-                  <p className='TargetaSec4__Text'>07 de marzo de 2024</p>
+                <div className='TargetaSec4__Main'>
+                  <div>
+                    <h4 className='TargetaSec4__Title'>{Elemento.tipo}</h4>
+                    <p className='TargetaSec4__Text'>{Elemento.nombreCurso}</p>
+                  </div>
+
+                  <div>
+                    <h4 className='TargetaSec4__Title'>Fecha</h4>
+                    <p className='TargetaSec4__Text'>{Elemento.fecha}</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-          <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Entidad</h4>
-                <p className='TargetaSec4__Text'>Platzi</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <div>
-                  <h4 className='TargetaSec4__Title'>Curso</h4>
-                  <p className='TargetaSec4__Text'>Programación orientada a objetos con C#</p>
-                </div>
+            ))}
 
-                <div>
-                  <h4 className='TargetaSec4__Title'>Fecha</h4>
-                  <p className='TargetaSec4__Text'>29 de febrero de 2024</p>
-                </div>
-              </div>
-            </div>
-
-          <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Entidad</h4>
-                <p className='TargetaSec4__Text'>Platzi</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <div>
-                  <h4 className='TargetaSec4__Title'>Curso</h4>
-                  <p className='TargetaSec4__Text'>Curso basico de C#</p>
-                </div>
-
-                <div>
-                  <h4 className='TargetaSec4__Title'>Fecha</h4>
-                  <p className='TargetaSec4__Text'>19 de febrero de 2024</p>
-                </div>
-              </div>
-            </div>
-       
-
-          <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Institución</h4>
-                <p className='TargetaSec4__Text'>Universidad de antioquia</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <h4 className='TargetaSec4__Title'>Certificado</h4>
-                <p className='TargetaSec4__Text'>Programación web</p>
-                <h4 className='TargetaSec4__Title'>Fecha</h4>
-                <p className='TargetaSec4__Text'>10 de noviembre de 2023</p>
-              </div>
-            </div>
-            
-
-            <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Entidad</h4>
-                <p className='TargetaSec4__Text'>Renault Group</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <h4 className='TargetaSec4__Title'>Certificado</h4>
-                <p className='TargetaSec4__Text'>Excelente desempeño academico</p>
-                <h4 className='TargetaSec4__Title'>Fecha</h4>
-                <p className='TargetaSec4__Text'>Abril de 2023</p>
-              </div>
-            </div>
-
-            
-
-            <div className='TargetaSec4'>
-              <div className='TargetaSec4__Header'>
-                <h4 className='TargetaSec4__Title'>Entidad</h4>
-                <p className='TargetaSec4__Text'>Platzi</p>
-              </div>
-              <div className='TargetaSec4__Main'>
-                <div>
-                  <h4 className='TargetaSec4__Title'>Curso</h4>
-                  <p className='TargetaSec4__Text'>Curso definitivo de HTML y CSS</p>
-                </div>
-
-                <div>
-                  <h4 className='TargetaSec4__Title'>Fecha</h4>
-                  <p className='TargetaSec4__Text'>31 de octubre de 2022</p>
-                </div>
-              </div>
-            </div>
 
           </div>
 
 
           {/* Estudios sin finalizar */}
 
-          <h1 className='HomeSect4__Title'>Estudios sin terminar</h1>  
+          <h1 className='HomeSect4__Title'>Estudios sin terminar</h1>
 
 
           <div className='HomeSect4__Main'>
@@ -390,16 +327,16 @@ function Home() {
 
           </div>
 
-          
 
-          
 
-          
+
+
+
 
         </section>
 
-        
-      
+
+
       </section>
     </main>
   )
