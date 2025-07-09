@@ -62,42 +62,42 @@ function Tecnologias() {
               <img className='HomeSect2_LogosItem ' src={ReactLogo} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>React</h5>
-                <p className='HomeSect2__logosText'>4 meses aprendiendo y usando esta libreria</p>
+                <p className='HomeSect2__logosText'>1 año aprendiendo y usando esta libreria</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={Firebase_Logo} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>Firebase</h5>
-                <p className='HomeSect2__logosText'>2 meses aprendiendo y usando esta plataforma y su api</p>
+                <p className='HomeSect2__logosText'>8 meses aprendiendo y usando esta plataforma y su api</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={Html} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>HTML</h5>
-                <p className='HomeSect2__logosText'>9 meses aprendiendo y usando este lenguaje</p>
+                <p className='HomeSect2__logosText'>2 años aprendiendo y usando este lenguaje</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={CSS} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>CSS</h5>
-                <p className='HomeSect2__logosText'>9 meses aprendiendo y usando esta tecnologia</p>
+                <p className='HomeSect2__logosText'>2 años aprendiendo y usando esta tecnologia</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={javaScript} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>JavaScript</h5>
-                <p className='HomeSect2__logosText'>5 meses aprendiendo y usando esta tecnologia</p>
+                <p className='HomeSect2__logosText'>1 año aprendiendo y usando esta tecnologia</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={Git} alt="" /> {/**Pendiente cambiar */}
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>Git</h5>
-                <p className='HomeSect2__logosText'>4 meses aprendiendo y usando esta tecnologia</p>
+                <p className='HomeSect2__logosText'>1 año aprendiendo y usando esta tecnologia</p>
               </div>
             </div>
 
@@ -105,7 +105,7 @@ function Tecnologias() {
               <img className='HomeSect2_LogosItem' src={GitHub} alt="" /> {/**Pendiente cambiar */}
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>GitHub</h5>
-                <p className='HomeSect2__logosText'>4 meses aprendiendo y usando esta tecnologia</p>
+                <p className='HomeSect2__logosText'>1 año aprendiendo y usando esta tecnologia</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
@@ -172,42 +172,42 @@ function Tecnologias() {
               <img className='HomeSect2_LogosItem ' src={ReactLogo} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>React</h5>
-                <p className='HomeSect2__logosText'>4 meses aprendiendo y usando esta libreria</p>
+                <p className='HomeSect2__logosText'>1 año aprendiendo y usando esta libreria</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={Firebase_Logo} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>Firebase</h5>
-                <p className='HomeSect2__logosText'>2 meses aprendiendo y usando esta plataforma y su api</p>
+                <p className='HomeSect2__logosText'>8 meses aprendiendo y usando esta plataforma y su api</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={Html} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>HTML</h5>
-                <p className='HomeSect2__logosText'>9 meses aprendiendo y usando este lenguaje</p>
+                <p className='HomeSect2__logosText'>2 años aprendiendo y usando este lenguaje</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={CSS} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>CSS</h5>
-                <p className='HomeSect2__logosText'>9 meses aprendiendo y usando esta tecnologia</p>
+                <p className='HomeSect2__logosText'>2 años aprendiendo y usando esta tecnologia</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={javaScript} alt="" />
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>JavaScript</h5>
-                <p className='HomeSect2__logosText'>5 meses aprendiendo y usando esta tecnologia</p>
+                <p className='HomeSect2__logosText'>1 año aprendiendo y usando esta tecnologia</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
               <img className='HomeSect2_LogosItem' src={Git} alt="" /> {/**Pendiente cambiar */}
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>Git</h5>
-                <p className='HomeSect2__logosText'>4 meses aprendiendo y usando esta tecnologia</p>
+                <p className='HomeSect2__logosText'>1 año aprendiendo y usando esta tecnologia</p>
               </div>
             </div>
 
@@ -215,7 +215,7 @@ function Tecnologias() {
               <img className='HomeSect2_LogosItem' src={GitHub} alt="" /> {/**Pendiente cambiar */}
               <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>GitHub</h5>
-                <p className='HomeSect2__logosText'>4 meses aprendiendo y usando esta tecnologia</p>
+                <p className='HomeSect2__logosText'>1 año aprendiendo y usando esta tecnologia</p>
               </div>
             </div>
             <div className="HomeSect2__Logos">
@@ -285,7 +285,7 @@ function Tecnologias() {
             <img className='HomeSect2_LogosItem' src={Figma} alt="" /> {/**Pendiente cambiar */}
             <div className='HomeSect2_LogosDescripcion'>
                 <h5 className='HomeSect2__logosTitle'>Figma</h5>
-                <p className='HomeSect2__logosText'>1 mes aprendiendo y usando esta herramienta</p>
+                <p className='HomeSect2__logosText'>6 mes aprendiendo y usando esta herramienta</p>
               </div>
           </div>
 

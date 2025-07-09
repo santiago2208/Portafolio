@@ -20,12 +20,12 @@ function Nav() {
     <footer className='Footer'>
        <div className='Footer__Cont'>
           <div className='Footer__element'>
-            <Link to={'https://www.instagram.com/gemelo_santi/'} className='Footer__info' title='Instagram'>
+            <Link to={'https://www.instagram.com/gemelo_santi/'} target='blank' className='Footer__info' title='Instagram'>
               <img className='Footer__Icon' src={icon_instagram} alt="icono de instagram" />
               <p className='Footer__Text'>gemelo_santi</p>
             </Link>
 
-            <Link to={'https://www.linkedin.com/in/santiago-alvarez-porras-b49888197/'} className='Footer__info' title='Linkedin'>
+            <Link to={'https://www.linkedin.com/in/santiago-alvarez-porras-b49888197/'} target='blank' className='Footer__info' title='Linkedin'>
               <img className='Footer__Icon' src={icon_linkedin} alt="icono de likedin" />
               <p className='Footer__Text'>Santiago Alvarez Porras</p>
             </Link>
@@ -43,7 +43,7 @@ function Nav() {
             </div>
           </div>
           <div className='Footer__element'>
-            <Link to={'https://github.com/santiago2208'} className='Footer__info' title='GitHub'>
+            <Link to={'https://github.com/santiago2208'} target='blank'  className='Footer__info' title='GitHub'>
               <img className='Footer__Icon' src={Icon_github} alt="icono de github" />
               <p className='Footer__Text'>santiago2208</p>
             </Link>

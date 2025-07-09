@@ -4,8 +4,11 @@ import { Link } from 'react-router-dom'
 // import { db } from '../../Firebase/Firebase';
 import Tecnologias from './componentes/Tecnologias'
 import Habilidades from './componentes/Habilidades'
-import FotoSantiago from '../../assets/img/HomeImg/fotoSanti2.jpeg'
+import FotoSantiago from '../../assets/img/HomeImg/fotoSanti2.png'
 import './Home.css'
+
+// IMG proyectos
+import imgAsesoriasContables from '../../assets/img/HomeImg/Proyectos/Proyecto1.png'
 
 import IconEmpresa from '../../assets/img/HomeImg/Exp_Laboral/Empresa.png'
 import iconCargo from '../../assets/img/HomeImg/Exp_Laboral/Cargo.png'
@@ -19,6 +22,8 @@ function Home() {
 
   const [ShowTecnologias, setShowTecnologias] = useState(true);
   const [ShowHabilidades, setShowHabilidades] = useState(false);
+
+  const [ShowHabilidadess, setShowHabilidadess] = useState(FotoSantiago);
 
 
 
@@ -122,50 +127,116 @@ function Home() {
           <section className='HomeSect1__contRight'>
             <h1 className='HomeSect1__Title'>Sobre mi</h1>
             <p className='HomeSect1__Text'>
-              Hola, mi nombres es Santiago Alvarez Porras y soy tecnico en desarrollo de software con solidos conocimientos en HTML y CSS. <br /><br />
+              Hola, mi nombre es Santiago Alvarez Porras y soy técnico en desarrollo de software con solidos conocimientos en HTML y CSS. <br /><br />
 
               Tengo experiencia laboral como desarrollador front-end y como asistente en desarrollo de software. En ambos roles, desempeñé un papel fundamental en el desarrollo inicial de las aplicaciones. Contribuí significativamente en la creación de la lógica para el inicio de sesión, implementando operaciones CRUD con la información y encargándome de la maquetación de las aplicaciones.
 
               <br /> <br />
               Me apasiona aprender cosas nuevas, programar y encontrar soluciones innovadoras para abordar problemas sociales y medioambientales utilizando la tecnología y el emprendimiento.
-
-
             </p>
           </section>
         </section>
 
-
-        <section className='HomeSect2'>
+        <section className='HomeSect4 '> {/* seccion 4 */}
           <div className='HomeSect2__Header'>
-            <h1 className='HomeSect2__title'>↓ Skills ↓</h1>
+            <h1 className='HomeSect2__title'>↓ Proyectos ↓</h1>
           </div>
 
-          <div className='HomeSect2__Main'>
-            <div className='HomeSect2__Opciones'>
-              <div className={`HomeSect2__btnleft ${ShowTecnologias ? 'btnSelected1' : ''}`}
-                onClick={ToggleTecnologias}
-              >
-                Uso de tecnologias
+          <div className='proyectsCont'>
+            <div className='proyect'>
+              <div className='proyect__header'>
+                <h3 className='proyect__headerTittle'>
+                  Asesorias contables
+                </h3>
               </div>
-              <div className={`HomeSect2__btnRight ${ShowHabilidades ? 'btnSelected1' : ''}`}
-                onClick={ToggleHabilidades}>
-                Habilidades blandas
+              <div className='proyect__Body'>
+                <img src={imgAsesoriasContables} className='proyect__BodyImg' alt="" />
               </div>
-
-              <div ></div>
+              <div className='proyect__Footer'>
+                <div className='proyect__FooterCont1'>
+                  <p className='proyect__FooterCont1Text'><b>Tipo de proyecto</b> Freelancer</p>
+                  <p className='proyect__FooterCont1Text'><b>Empresa</b> AC&T FERRARO MOLINA</p>
+                </div>
+                
+              </div>
             </div>
 
-            {ShowTecnologias && (
-              <Tecnologias />
-            )}
-
-            {ShowHabilidades && (
-              <Habilidades />
-            )}
           </div>
+
+          <div className='HomeSect4__Main'>
+
+
+            {/* aqui se usa el map */}
+            
+
+              
+
+         
+
+          </div>
+
+          {/* Cursos y certificados */}
+
+          <h1 className='HomeSect4__Title'>Proyectos personales</h1>
+
+          <div className='HomeSect4__Main'>
+
+
+            {/* aqui se usa el map */}
+            
+
+              <div className='TargetaSec4'>
+                <div className='TargetaSec4__Header'>
+                  <h4 className='TargetaSec4__Title'>Proyecto</h4>
+                  <p className='TargetaSec4__Text'>Cuenta Clara</p>
+                </div>
+
+                <div className='TargetaSec4__Main'>
+                  <div>
+                    <h4 className='TargetaSec4__Title'>Finalidad</h4>
+                    <p className='TargetaSec4__Text'>Herramienta web para registrar a quién le prestas dinero y cuánto te deben</p>
+                  </div>
+
+                  <br />
+                  <div>
+                    <h4 className='TargetaSec4__Title'>Enlace</h4>
+                    <p className='TargetaSec4__Text'><Link target='blank' to={'https://cuenta-clara.web.app/'}>https://cuenta-clara.web.app/</Link></p>
+                    
+                  </div>
+                </div>
+                
+              </div>
+
+              <div className='TargetaSec4'>
+                <div className='TargetaSec4__Header'>
+                  <h4 className='TargetaSec4__Title'>Proyecto</h4>
+                  <p className='TargetaSec4__Text'>Spaced Words</p>
+                </div>
+
+                <div className='TargetaSec4__Main'>
+                  <div>
+                    <h4 className='TargetaSec4__Title'>Finalidad</h4>
+                    <p className='TargetaSec4__Text'>Herramienta web para aprender vocabulario en inglés usando el método de repaso con memoria espaciada.</p>
+                  </div>
+
+                  <div>
+                    <h4 className='TargetaSec4__Title'>Enlace</h4>
+                    <p className='TargetaSec4__Text'><Link target='blank' to={'https://spacedwords-a1df6.web.app/'}>spacedwords-a1df6.web.app/</Link></p>
+                  </div>
+                </div>
+                
+              </div>
+
+
+
+          </div>
+
+
+          {/* Estudios sin finalizar */}
+
         </section>
 
-        <section className='HomeSect3'>
+        <section className='HomeSect3 colorGray'>
           <div className='HomeSect2__Header'>
             <h1 className='HomeSect2__title'>↓ Experiencia laboral ↓</h1>
           </div>
@@ -238,8 +309,40 @@ function Home() {
 
         </section>
 
+        <section className='HomeSect2'>
+          <div className='HomeSect2__Header'>
+            <h1 className='HomeSect2__title'>↓ Skills ↓</h1>
+          </div>
+
+          <div className='HomeSect2__Main'>
+            <div className='HomeSect2__Opciones'>
+              <div className={`HomeSect2__btnleft ${ShowTecnologias ? 'btnSelected1' : ''}`}
+                onClick={ToggleTecnologias}
+              >
+                Uso de tecnologias
+              </div>
+              <div className={`HomeSect2__btnRight ${ShowHabilidades ? 'btnSelected1' : ''}`}
+                onClick={ToggleHabilidades}>
+                Habilidades blandas
+              </div>
+
+              <div ></div>
+            </div>
+
+            {ShowTecnologias && (
+              <Tecnologias />
+            )}
+
+            {ShowHabilidades && (
+              <Habilidades />
+            )}
+          </div>
+        </section>
+
+        
+
         {/* seccion 4 */}
-        <section className='HomeSect4'> {/* seccion 4 */}
+        <section className='HomeSect4 colorGray'> {/* seccion 4 */}
           <div className='HomeSect2__Header'>
             <h1 className='HomeSect2__title'>↓ Educacion ↓</h1>
           </div>
